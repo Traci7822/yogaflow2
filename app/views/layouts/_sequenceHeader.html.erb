@@ -1,0 +1,7 @@
+<span>
+  <h1>Please select a yoga sequence:
+    <h4>
+      <%= collection_select(:sequence, :sequence_id, @sequences, :id, :title, {:class => 'sequence_selection'}) %>
+    </h4>
+  </h1>
+</span>

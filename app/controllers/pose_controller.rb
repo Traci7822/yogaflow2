@@ -1,0 +1,3 @@
+class PoseController < ApplicationController
+
+end

@@ -1,0 +1,2 @@
+module PoseHelper
+end
