@@ -3758,3 +3758,2678 @@ Completed 200 OK in 92ms (Views: 90.9ms | ActiveRecord: 0.2ms)
 
 
 Started GET "/assets/script.self-23ec3cc135210938c19864568c6db9d60d04a7643166bbd69583f72fb42adbcf.js?body=1" for ::1 at 2016-12-25 16:24:25 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 16:28:56 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:18:45 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 74ms (Views: 22.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:18:48 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 27ms (Views: 22.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:19:27 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 44ms (Views: 29.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-12-25 17:19:31 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.1ms)
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (0.5ms)
+  Rendered sequence/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:19:33 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 34ms (Views: 28.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:19:47 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.4ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 41ms (Views: 32.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:20:01 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 73ms (Views: 70.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-967c8b6c713e8c063815dafe79eca04193b84bbb17f76f13de891db502187755.js?body=1" for ::1 at 2016-12-25 17:20:01 -0700
+
+
+Started GET "/" for ::1 at 2016-12-25 17:20:04 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.3ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.2ms)
+  Rendered sequence/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-25 17:20:05 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.1ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (0.5ms)
+  Rendered sequence/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:20:06 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 32ms (Views: 27.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:20:29 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:20:49 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:20:56 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-25 17:20:58 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.0ms)
+  Rendered sequence/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-25 17:20:58 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (0.7ms)
+  Rendered sequence/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:20:59 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.7ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 34ms (Views: 28.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:22:44 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sequence.self-3f76a60869bdcdb400455c6231292daa7afc87877b16115202effa505a81c981.css?body=1" for ::1 at 2016-12-25 17:22:44 -0700
+
+
+Started GET "/" for ::1 at 2016-12-25 17:22:50 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[36mSequence Load (0.3ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.7ms)
+  Rendered sequence/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-25 17:22:50 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.5ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.8ms)
+  Rendered sequence/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:22:52 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:23:40 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 74ms (Views: 72.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/script.self-54bc4db616b860c3d9c4206084894823b5feaef073964f686409b09689f9daa0.js?body=1" for ::1 at 2016-12-25 17:23:40 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:23:47 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 84ms (Views: 79.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-c09c8164064902d916a066ff058917a2c154e4f8c01f742c3581c733c85106c0.js?body=1" for ::1 at 2016-12-25 17:23:47 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:24:40 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.6ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 89ms (Views: 83.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/script.self-cff69a3c6ce3ee010dc37ed52f2c35cb37234d051c126abf58b1b9e0e2698385.js?body=1" for ::1 at 2016-12-25 17:24:40 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:24:50 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 79ms (Views: 76.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-596885ed2d640589a9f32d76486a2a12899fde160597ba1a1ef96e3e794b8676.js?body=1" for ::1 at 2016-12-25 17:24:50 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:25:01 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 81ms (Views: 77.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-266532b7850b6979deca95b7f1548d3387083d51f429c6aa33101ad814a9169b.js?body=1" for ::1 at 2016-12-25 17:25:01 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:25:11 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:25:19 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 79ms (Views: 77.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-b7ff0794e934543b9462a942d909eb0aa9c70d4eda988d730843bd34d7d71647.js?body=1" for ::1 at 2016-12-25 17:25:19 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:25:31 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:25:46 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:25:55 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:26:16 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:27:03 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.4ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered sequence/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 30ms (Views: 27.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:27:19 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 22ms (Views: 18.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-25 17:29:29 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.1ms)
+  Rendered sequence/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 43ms (Views: 36.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:29:31 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.4ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered sequence/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 63ms (Views: 26.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:35:56 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (30.6ms)
+  Rendered sequence/new.html.erb within layouts/application (33.9ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fd39ac32b78>:0x007fd39e66ea80>):
+    1: <div class="newSequencePoses">
+    2:   <%= f.fields_for :poses do |pose_builder| %>
+    3:       <%= f.label :add_pose_to_this_sequence %>
+    4:       <%= select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___3279213876216041257_70273381151320'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___640111984451581925_70273436183380'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___640111984451581925_70273436183380'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___640111984451581925_70273436183380'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (101.6ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:37:51 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (26.5ms)
+  Rendered sequence/new.html.erb within layouts/application (28.7ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fd39ac32b78>:0x007fd39c50bcd0>):
+    1: <div class="newSequencePoses">
+    2:   <%= f.fields_for :poses do |pose_builder| %>
+    3:       <%= f.label :add_pose_to_this_sequence %>
+    4:       <%= select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___3279213876216041257_70273419042200'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___640111984451581925_70273418678580'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___640111984451581925_70273418678580'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___640111984451581925_70273418678580'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (49.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (37.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (86.9ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:38:03 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (41.5ms)
+  Rendered sequence/new.html.erb within layouts/application (43.8ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fd39ac32b78>:0x007fd39ebec480>):
+    1: <div class="newSequencePoses">
+    2:   <%= f.fields_for :poses do |pose_builder| %>
+    3:       <%= f.label :add_pose_to_this_sequence %>
+    4:       <%= select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___3279213876216041257_70273381151320'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___640111984451581925_70273434875980'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___640111984451581925_70273434875980'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___640111984451581925_70273434875980'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (36.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (83.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:38:14 -0700
+Processing by SequenceController#new as HTML
+  Rendered layouts/_poseBuilder.html.erb (1.9ms)
+  Rendered sequence/new.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..4)):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= label :add_pose_to_this_sequence %>
+    4:       <%= select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:3:in `block in _app_views_layouts__pose_uilder_html_erb___3279213876216041257_70273419669600'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___3279213876216041257_70273419669600'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___640111984451581925_70273434875980'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___640111984451581925_70273434875980'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___640111984451581925_70273434875980'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (84.4ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:39:40 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SequenceController#new as HTML
+  Rendered layouts/_poseBuilder.html.erb (5.4ms)
+  Rendered sequence/new.html.erb within layouts/application (45.8ms)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (no block given (yield)):
+    1: <div class="newSequencePoses">
+    2: 
+    3:   <%= binding.pry fields_for :poses do |pose_builder| %>
+    4:       <%= label :add_pose_to_this_sequence %>
+    5:       <%= select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    6:       <div id="poseBuilder">
+  app/views/layouts/_poseBuilder.html.erb:3:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291114463280'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (96.8ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:40:00 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (286175.3ms)
+  Rendered sequence/new.html.erb within layouts/application (286177.1ms)
+Completed 500 Internal Server Error in 286182ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..4)):
+    1: <div class="newSequencePoses">
+    2: <%= binding.pry %>
+    3:   <%= fields_for :poses do |pose_builder| %>
+    4:       <%= label :add_pose_to_this_sequence %>
+    5:       <%= select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    6:       <div id="poseBuilder">
+    7:         <%= pose_builder.label :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291109683660'
+  app/views/layouts/_poseBuilder.html.erb:3:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291109683660'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (91.5ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:44:46 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5165.1ms)
+  Rendered sequence/new.html.erb within layouts/application (5168.1ms)
+Completed 500 Internal Server Error in 5182ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..4)):
+    1: <div class="newSequencePoses">
+    2: <%= binding.pry %>
+    3:   <%= fields_for :poses do |pose_builder| %>
+    4:       <%= label :add_pose_to_this_sequence %>
+    5:       <%= select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    6:       <div id="poseBuilder">
+    7:         <%= pose_builder.label :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291109683660'
+  app/views/layouts/_poseBuilder.html.erb:3:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291109683660'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (49.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (38.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (87.0ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:45:36 -0700
+Processing by SequenceController#new as HTML
+  Rendered layouts/_poseBuilder.html.erb (13593.7ms)
+  Rendered sequence/new.html.erb within layouts/application (13595.9ms)
+Completed 500 Internal Server Error in 13609ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..4)):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= label :add_pose_to_this_sequence %>
+    4:       <%= select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+    7:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291109683660'
+  app/views/layouts/_poseBuilder.html.erb:3:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291109683660'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (93.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:45:50 -0700
+Processing by SequenceController#new as HTML
+  Rendered layouts/_poseBuilder.html.erb (2.6ms)
+  Rendered sequence/new.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..4)):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= label :add_pose_to_this_sequence %>
+    4:       <%= select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:3:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291101050780'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291101050780'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.4ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:45:54 -0700
+Processing by SequenceController#new as HTML
+  Rendered layouts/_poseBuilder.html.erb (1.7ms)
+  Rendered sequence/new.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..4)):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= label :add_pose_to_this_sequence %>
+    4:       <%= select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:3:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291101050780'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291101050780'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:46:46 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (19.2ms)
+  Rendered sequence/new.html.erb within layouts/application (21.0ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined method `select_tag' for #<ActionView::Helpers::FormBuilder:0x007fdbd9c92068>
+Did you mean?  select):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= pose_builder.label :add_pose_to_this_sequence %>
+    4:       <%= pose_builder.select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+    7:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291114235780'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291114235780'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291109377140'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (38.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (83.9ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:47:54 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (15.7ms)
+  Rendered sequence/new.html.erb within layouts/application (19.2ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `select_tag' for #<ActionView::Helpers::FormBuilder:0x007fdbdc48e2d8>
+Did you mean?  select):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= pose_builder.label :add_pose_to_this_sequence %>
+    4:       <%= pose_builder.select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+    7:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291135455400'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291135455400'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291135718480'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291135718480'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291135718480'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (38.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (84.4ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:48:04 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (17.0ms)
+  Rendered sequence/new.html.erb within layouts/application (19.0ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `select_tag' for #<ActionView::Helpers::FormBuilder:0x007fdbdc47cc18>
+Did you mean?  select):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= pose_builder.label :add_pose_to_this_sequence %>
+    4:       <%= pose_builder.select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+    7:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291135455400'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291135455400'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (36.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (81.2ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:49:19 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT "poses".* FROM "poses"
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (21896.3ms)
+  Rendered sequence/new.html.erb within layouts/application (21898.4ms)
+Completed 500 Internal Server Error in 21903ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `select_tag' for #<ActionView::Helpers::FormBuilder:0x007fdbdc527b18>
+Did you mean?  select):
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= pose_builder.label :add_pose_to_this_sequence %>
+    4:       <%= binding.pry %>
+    5:       <%= pose_builder.select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    6:       <div id="poseBuilder">
+    7:         <%= pose_builder.label :sanskrit_name %>
+    8:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:5:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134836880'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134836880'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (92.6ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:49:49 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (41.8ms)
+  Rendered sequence/new.html.erb within layouts/application (43.6ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `select_tag' for #<ActionView::Helpers::FormBuilder:0x007fdbd94a2d80>
+Did you mean?  select):
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= pose_builder.label :add_pose_to_this_sequence %>
+    4:       <%= binding.pry %>
+    5:       <%= pose_builder.select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    6:       <div id="poseBuilder">
+    7:         <%= pose_builder.label :sanskrit_name %>
+    8:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:5:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134836880'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134836880'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (95.7ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:49:52 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT "poses".* FROM "poses"
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (128773.9ms)
+  Rendered sequence/new.html.erb within layouts/application (128776.9ms)
+Completed 500 Internal Server Error in 128780ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `select_tag' for #<ActionView::Helpers::FormBuilder:0x007fdbd860cff0>
+Did you mean?  select):
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= pose_builder.label :add_pose_to_this_sequence %>
+    4:       <%= pose_builder.select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+    7:         <%= pose_builder.text_field :sanskrit_name %>
+    8:         <%= pose_builder.label :english_name %>
+  app/views/layouts/_poseBuilder.html.erb:5:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134836880'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134836880'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291134181200'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (93.1ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:52:05 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (15.1ms)
+  Rendered sequence/new.html.erb within layouts/application (17.2ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `select_tag' for #<ActionView::Helpers::FormBuilder:0x007fdbd8d84148>
+Did you mean?  select):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= pose_builder.label :add_pose_to_this_sequence %>
+    4:       <%= pose_builder.select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+    7:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291106361140'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291106361140'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291147739720'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291147739720'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291147739720'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (92.9ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:52:12 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (16.3ms)
+  Rendered sequence/new.html.erb within layouts/application (18.3ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `select_tag' for #<ActionView::Helpers::FormBuilder:0x007fdbd9fd6b98>
+Did you mean?  select):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= pose_builder.label :add_pose_to_this_sequence %>
+    4:       <%= pose_builder.select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+    7:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134408220'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134408220'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291110580420'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291110580420'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291110580420'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (92.7ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:52:14 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (19.9ms)
+  Rendered sequence/new.html.erb within layouts/application (21.6ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `select_tag' for #<ActionView::Helpers::FormBuilder:0x007fdbdc203068>
+Did you mean?  select):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= pose_builder.label :add_pose_to_this_sequence %>
+    4:       <%= pose_builder.select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+    7:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134408220'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134408220'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291110580420'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291110580420'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291110580420'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.5ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:52:30 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (17.5ms)
+  Rendered sequence/new.html.erb within layouts/application (19.6ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `select_tag' for #<ActionView::Helpers::FormBuilder:0x007fdbdc3764e0>
+Did you mean?  select):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= pose_builder.label :add_pose_to_this_sequence %>
+    4:       <%= pose_builder.select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+    7:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134408220'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291134408220'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291115910140'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291115910140'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291115910140'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (48.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (87.5ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:52:35 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (14.8ms)
+  Rendered sequence/new.html.erb within layouts/application (16.9ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `select_tag' for #<ActionView::Helpers::FormBuilder:0x007fdbdc011fc0>
+Did you mean?  select):
+    1: <div class="newSequencePoses">
+    2:   <%= fields_for :poses do |pose_builder| %>
+    3:       <%= pose_builder.label :add_pose_to_this_sequence %>
+    4:       <%= pose_builder.select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue();"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+    7:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291106361140'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291106361140'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291132981000'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291132981000'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291132981000'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (86.5ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 17:59:20 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.0ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.0ms)
+  Rendered sequence/new.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 291ms (Views: 290.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 18:02:00 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7587.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2298.2ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (1325.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (697.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (984.2ms)
+  Rendered sequence/new.html.erb within layouts/application (12900.9ms)
+Completed 200 OK in 12947ms (Views: 12946.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 18:02:20 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (266494.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  [1m[35mPose Load (0.2ms)[0m  SELECT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (39.4ms)
+  Rendered sequence/new.html.erb within layouts/application (266536.9ms)
+Completed 500 Internal Server Error in 266542ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined local variable or method `i' for #<#<Class:0x007fdbdde02c00>:0x007fdbdc627130>):
+    1: <div class="newSequencePoses">
+    2:   <%= f.fields_for :poses do |pose_builder| %>
+    3:       <%= f.label :add_pose_to_this_sequence %>
+    4:       <%=binding.pry select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue(#{i});"} %>
+    5:       <div id="poseBuilder">
+    6:         <%= pose_builder.label :sanskrit_name %>
+    7:         <%= pose_builder.text_field :sanskrit_name %>
+  app/views/layouts/_poseBuilder.html.erb:4:in `block in _app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291147735380'
+  app/views/layouts/_poseBuilder.html.erb:2:in `_app_views_layouts__pose_uilder_html_erb___1950979614241781994_70291147735380'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb___4332164082031659591_70291135491620'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb___4332164082031659591_70291135491620'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb___4332164082031659591_70291135491620'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (92.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 18:06:50 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (10606.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.8ms)
+  Rendered sequence/new.html.erb within layouts/application (10637.3ms)
+Completed 200 OK in 10654ms (Views: 10653.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-25 18:07:03 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  Rendered sequence/new.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-26 07:22:59 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.6ms)
+  [1m[35mSequence Load (1.5ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (12.9ms)
+  Rendered sequence/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 412ms (Views: 384.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/script.self-e5c464148c2999fc06423b32af91e643be7d891bda4831286330f4401e086ac2.js?body=1" for ::1 at 2016-12-26 07:23:00 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:23:01 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (1.4ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (25.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (9.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (11.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (10.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (10.9ms)
+  Rendered sequence/new.html.erb within layouts/application (109.9ms)
+Completed 200 OK in 148ms (Views: 137.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:24:18 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.4ms)
+  Rendered sequence/new.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 107ms (Views: 106.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-2e3528ce597e3684649e6bf21a32cfb3949d7a4b7506595a78f8b3e4d546859f.js?body=1" for ::1 at 2016-12-26 07:24:18 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:27:19 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (9.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.8ms)
+  Rendered sequence/new.html.erb within layouts/application (49.1ms)
+Completed 200 OK in 136ms (Views: 134.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-b600324069c7e866d73ba7c89a3d243b7faec63a68a4685b661f66600fefe721.js?body=1" for ::1 at 2016-12-26 07:27:19 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:27:25 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  Rendered sequence/new.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 102ms (Views: 101.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-0e3466877954aabfdaa76f228c9418d41291f99b88a9df75d5967cf1e5b988aa.js?body=1" for ::1 at 2016-12-26 07:27:25 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:29:03 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.4ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (13.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.9ms)
+  Rendered sequence/new.html.erb within layouts/application (54.3ms)
+Completed 200 OK in 82ms (Views: 80.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:29:25 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (12.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (9.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  Rendered sequence/new.html.erb within layouts/application (44.6ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:31:28 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (10.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (10.6ms)
+  [1m[35mCACHE (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (8.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (11.3ms)
+  Rendered sequence/new.html.erb within layouts/application (58.8ms)
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:32:32 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (45915.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (1681.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (991.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (566.4ms)
+  [1m[35mCACHE (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (562.6ms)
+  Rendered sequence/new.html.erb within layouts/application (49723.7ms)
+Completed 200 OK in 49745ms (Views: 49743.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:33:24 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (17391.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:34:04 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (1.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (9285.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (10.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (9.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.3ms)
+  Rendered sequence/new.html.erb within layouts/application (9368.2ms)
+Completed 200 OK in 9669ms (Views: 9642.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:34:45 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (11.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (14.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (16.1ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.8ms)
+  Rendered sequence/new.html.erb within layouts/application (73.4ms)
+Completed 200 OK in 98ms (Views: 95.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:35:46 -0700
+Processing by SequenceController#new as HTML
+  Rendered layouts/_poseBuilder.html.erb (3.1ms)
+  Rendered sequence/new.html.erb within layouts/application (8.8ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/traci/code/yogaflow2/app/views/layouts/_poseBuilder.html.erb:10: syntax error, unexpected tREGEXP_BEG, expecting keyword_do or '{' or '('
+...utput_buffer.safe_append='<br />
+...                               ^
+/Users/traci/code/yogaflow2/app/views/layouts/_poseBuilder.html.erb:11: unknown regexp options - dv
+/Users/traci/code/yogaflow2/app/views/layouts/_poseBuilder.html.erb:13: unterminated regexp meets end of file
+/Users/traci/code/yogaflow2/app/views/layouts/_poseBuilder.html.erb:13: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/layouts/_poseBuilder.html.erb:10: syntax error, unexpected tREGEXP_BEG, expecting keyword_do or '{' or '('
+  app/views/layouts/_poseBuilder.html.erb:11: unknown regexp options - dv
+  app/views/layouts/_poseBuilder.html.erb:13: unterminated regexp meets end of file
+  app/views/layouts/_poseBuilder.html.erb:13: syntax error, unexpected end-of-input, expecting ')'
+  app/views/sequence/new.html.erb:18:in `block (2 levels) in _app_views_sequence_new_html_erb__782227602173914705_70170038725580'
+  app/views/sequence/new.html.erb:17:in `times'
+  app/views/sequence/new.html.erb:17:in `block in _app_views_sequence_new_html_erb__782227602173914705_70170038725580'
+  app/views/sequence/new.html.erb:5:in `_app_views_sequence_new_html_erb__782227602173914705_70170038725580'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (121.8ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:36:33 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (10.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (13.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (12.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (10.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (10.4ms)
+  Rendered sequence/new.html.erb within layouts/application (69.3ms)
+Completed 200 OK in 107ms (Views: 105.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:38:08 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.7ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (12.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (9.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (14.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (11.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.2ms)
+  Rendered sequence/new.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 108ms (Views: 105.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:39:51 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.6ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (15.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (13.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (13.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.8ms)
+  Rendered sequence/new.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 106ms (Views: 104.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:40:04 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (16.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.9ms)
+  Rendered sequence/new.html.erb within layouts/application (58.6ms)
+Completed 200 OK in 82ms (Views: 80.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:41:11 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  Rendered sequence/new.html.erb within layouts/application (38.2ms)
+Completed 200 OK in 111ms (Views: 110.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-e54b9cb4bfc67ea487da36c01cddab42ff608fb49c65eb2cb114d7983b84aa77.js?body=1" for ::1 at 2016-12-26 07:41:11 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:42:12 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.7ms)
+  Rendered sequence/new.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 126ms (Views: 124.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-aa62dc904dc17fadf95eb15506a2b9f67dec7d55a8ffc47b7f0087bfe63fb6de.js?body=1" for ::1 at 2016-12-26 07:42:12 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:45:15 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (8.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (9.2ms)
+  Rendered sequence/new.html.erb within layouts/application (47.7ms)
+Completed 200 OK in 188ms (Views: 187.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-e391a1458cbe292439c70c3bfa33af33c7752264254d25b4fa53e482d5d49c6e.js?body=1" for ::1 at 2016-12-26 07:45:15 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:51:56 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.5ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (11.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (12.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (11.8ms)
+  [1m[35mCACHE (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (21.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.6ms)
+  Rendered sequence/new.html.erb within layouts/application (78.3ms)
+Completed 200 OK in 177ms (Views: 175.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/script.self-f33c4a614de1c08cd8018ce8ee52bce6f51540c17159f9a849137d17eba2a7e0.js?body=1" for ::1 at 2016-12-26 07:51:56 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:52:12 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  Rendered sequence/new.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 121ms (Views: 120.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-24d9fb8eaccb9ff6986643179d24485bb4d7520c15b5e56d850ed380af3594db.js?body=1" for ::1 at 2016-12-26 07:52:12 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:52:29 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  Rendered sequence/new.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 107ms (Views: 106.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-1ffb42872e50c4937c10c815e8d5125f676c72b84797b5f65a931c6cc6addd24.js?body=1" for ::1 at 2016-12-26 07:52:29 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:53:40 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.5ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (8.8ms)
+  Rendered sequence/new.html.erb within layouts/application (45.7ms)
+Completed 200 OK in 126ms (Views: 124.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/script.self-12c94ee393eb1cb0eb1a6623194946298376ea48d8d066e0744e702c27af248f.js?body=1" for ::1 at 2016-12-26 07:53:40 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:53:50 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  Rendered sequence/new.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-5dabd4f84eff4e4a5cb93c84e4fd4b6f5f1bd7b92e9501c05bccb3e163bfcf6f.js?body=1" for ::1 at 2016-12-26 07:53:50 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:54:26 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.3ms)
+  Rendered sequence/new.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:54:37 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.2ms)
+  Rendered sequence/new.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 109ms (Views: 108.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-b15764b854b9325783db6c941282c8bc9e6c74916a2bea818210c0e353817177.js?body=1" for ::1 at 2016-12-26 07:54:37 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:55:16 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (8.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (19.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (8.7ms)
+  Rendered sequence/new.html.erb within layouts/application (67.9ms)
+Completed 200 OK in 97ms (Views: 95.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:55:40 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (14.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (24.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (10.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (8.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.2ms)
+  Rendered sequence/new.html.erb within layouts/application (72.9ms)
+Completed 200 OK in 161ms (Views: 158.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-42ed8cacbb7ab2667e2d00f98deaa2b8a94b064c0e32cb17fa94cfcc76ed4d99.js?body=1" for ::1 at 2016-12-26 07:55:40 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:55:58 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.4ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (9.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.1ms)
+  Rendered sequence/new.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 126ms (Views: 124.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-5f703736c1cf7e5b1ee35f0460f4150d16d7ceda89db7c115ce0d997b53ba008.js?body=1" for ::1 at 2016-12-26 07:55:58 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:57:29 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (11.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (10.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (16.3ms)
+  [1m[35mCACHE (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (16.7ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.4ms)
+  Rendered sequence/new.html.erb within layouts/application (74.3ms)
+Completed 200 OK in 169ms (Views: 167.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/script.self-2a2792ac05dc4f493d5d31b976a06dff1d4d0b8164ff296b95ce2bf80c92eda3.js?body=1" for ::1 at 2016-12-26 07:57:29 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:58:06 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (9.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (8.4ms)
+  Rendered sequence/new.html.erb within layouts/application (46.1ms)
+Completed 200 OK in 133ms (Views: 132.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-a57a63da50afbc6db9938cc28263d8020219b7bdbf3e3ee3b020e47bbdb57287.js?body=1" for ::1 at 2016-12-26 07:58:06 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:59:12 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.9ms)
+  Rendered sequence/new.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 117ms (Views: 116.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-02eee07ed3db15f428cc37901ebf609dfaf1cf7d2db101d1d789e150c6cc6cba.js?body=1" for ::1 at 2016-12-26 07:59:12 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 07:59:47 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  Rendered sequence/new.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 99ms (Views: 97.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-cd2802588483d03cd7ecfdc2e0d658ada5cdd10e972ea39d986e060007f965b3.js?body=1" for ::1 at 2016-12-26 07:59:47 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:00:18 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (9.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (8.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.6ms)
+  Rendered sequence/new.html.erb within layouts/application (48.4ms)
+Completed 200 OK in 228ms (Views: 226.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-6e61b54a8b0eeba427ffee8876c46cdccfeb486644222af48484bc67bb6b4b46.js?body=1" for ::1 at 2016-12-26 08:00:18 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:03:19 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (17.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (15.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (12.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (14.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.7ms)
+  Rendered sequence/new.html.erb within layouts/application (78.3ms)
+Completed 200 OK in 161ms (Views: 159.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-4b5fd3af8d99860731ab0d018cf20ecc9398d7b5057c4029875a07f5069925e3.js?body=1" for ::1 at 2016-12-26 08:03:19 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:03:34 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.5ms)
+  Rendered sequence/new.html.erb within layouts/application (31.8ms)
+Completed 200 OK in 97ms (Views: 96.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-31be9984754b1a8957b6b18c25bd95e053761de175a96c8f1805f8882e6336c3.js?body=1" for ::1 at 2016-12-26 08:03:34 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:04:05 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.3ms)
+  Rendered sequence/new.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 91ms (Views: 89.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-49225ddc0604ac2d39c78f5db4454610fd5b4856580d40dd2855e54baefdede0.js?body=1" for ::1 at 2016-12-26 08:04:05 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:04:10 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.5ms)
+  Rendered sequence/new.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:04:27 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.5ms)
+  Rendered sequence/new.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 86ms (Views: 85.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-209ececf3365b98ee487d018bf60272003f3740851a8b14661df1e2b7e8e4be8.js?body=1" for ::1 at 2016-12-26 08:04:27 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:04:33 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.7ms)
+  Rendered sequence/new.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 58ms (Views: 56.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:05:00 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.1ms)
+  Rendered sequence/new.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 111ms (Views: 110.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-f9a1712207cc0fc1b7e4307a5fcde52dcc5661c601e961c41fd2b84b79bb64c9.js?body=1" for ::1 at 2016-12-26 08:05:01 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:05:20 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (8.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.5ms)
+  Rendered sequence/new.html.erb within layouts/application (48.9ms)
+Completed 200 OK in 131ms (Views: 129.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-35e4ae1d6aa21f248eee986ebec8578891a05ebd947229577497daa864797c0a.js?body=1" for ::1 at 2016-12-26 08:05:20 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:05:28 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.7ms)
+  Rendered sequence/new.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 132ms (Views: 131.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-7944daf46637b11293b75c286c8ba3b8bd68e22ed260c1b0de674266c497f86a.js?body=1" for ::1 at 2016-12-26 08:05:28 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:05:46 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.4ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.3ms)
+  Rendered sequence/new.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:06:36 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (5.6ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (10.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.1ms)
+  Rendered sequence/new.html.erb within layouts/application (37.1ms)
+Completed 200 OK in 54ms (Views: 47.6ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:07:02 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  Rendered sequence/new.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 99ms (Views: 98.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-ca9eeea8c686aa62d14731d701dc8a597b458e4aea93daebb2b2ff80144217de.js?body=1" for ::1 at 2016-12-26 08:07:02 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:07:12 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.8ms)
+  Rendered sequence/new.html.erb within layouts/application (45.2ms)
+Completed 200 OK in 144ms (Views: 143.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-041e1b8d612e76092965b76711abfbbf9227a176db451031ea691da19309e50c.js?body=1" for ::1 at 2016-12-26 08:07:13 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:07:31 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.3ms)
+  Rendered sequence/new.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 130ms (Views: 128.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-96c922cd470460f23ca49e130db4d4a09b6a527c65e0ff1b8ec40cb860759951.js?body=1" for ::1 at 2016-12-26 08:07:31 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:08:12 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  Rendered sequence/new.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 109ms (Views: 108.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-2b36cd4bc351139bb4215f4599eeabfb51bd291bc914bdfe5ab49901352a661d.js?body=1" for ::1 at 2016-12-26 08:08:12 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:11:51 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  Rendered sequence/new.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 169ms (Views: 167.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-0c30e653f6b95023425e9f30ecc298c62fa4380a8ab32ea0f904c325f7f5dff8.js?body=1" for ::1 at 2016-12-26 08:11:51 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:15:32 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.3ms)
+  Rendered sequence/new.html.erb within layouts/application (39.8ms)
+Completed 200 OK in 134ms (Views: 132.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-8d49f15bdafad20cc401fb784a03828e8b4fc700849a46b94af2f691c77333fd.js?body=1" for ::1 at 2016-12-26 08:15:32 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:15:43 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.6ms)
+  Rendered sequence/new.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 87ms (Views: 86.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-f81f9836c019366987c5a3083d36e4b3202b0fe160b9a4e91951dca3a3027337.js?body=1" for ::1 at 2016-12-26 08:15:43 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:16:04 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.3ms)
+  Rendered sequence/new.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-be9c14595b83e966b2c674d3ba1a0915893b5696483fb29597f3b46e4be23b24.js?body=1" for ::1 at 2016-12-26 08:16:04 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:16:27 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.6ms)
+  [1m[35mCACHE (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.5ms)
+  Rendered sequence/new.html.erb within layouts/application (36.6ms)
+Completed 200 OK in 135ms (Views: 133.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/script.self-472ad6d0bd770290fe87d952ee699ec8cf98316da2b7ebdc28adb64111609518.js?body=1" for ::1 at 2016-12-26 08:16:27 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:16:59 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.0ms)
+  Rendered sequence/new.html.erb within layouts/application (36.8ms)
+Completed 200 OK in 132ms (Views: 131.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-097648727aac528b58f9b07e9c25988104350c0891952208e3ff15e573b836ba.js?body=1" for ::1 at 2016-12-26 08:16:59 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:17:29 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.8ms)
+  Rendered sequence/new.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-a48f4f4a693d9a285e5a0c021a11af38715d32cd38dcda79eea9a249d6569807.js?body=1" for ::1 at 2016-12-26 08:17:29 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:17:58 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (13.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (19.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (15.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (13.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (11.8ms)
+  Rendered sequence/new.html.erb within layouts/application (85.8ms)
+Completed 200 OK in 191ms (Views: 189.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-f21104299c0e4ffee4bc043e4d946e914d8422e451af16b6599e2f5f5f832c38.js?body=1" for ::1 at 2016-12-26 08:17:58 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:18:18 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.5ms)
+  Rendered sequence/new.html.erb within layouts/application (32.3ms)
+Completed 200 OK in 102ms (Views: 101.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-caf359137a211f9a215ce70c754bc8de261b3b51b0e5a90f6b3a1240813ef1c2.js?body=1" for ::1 at 2016-12-26 08:18:18 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:19:27 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.5ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.4ms)
+  Rendered sequence/new.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 93ms (Views: 91.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/script.self-481aa2c4385650649f1f847fdde5a1d50b71c054cd0100822b52f0aec2c28d8a.js?body=1" for ::1 at 2016-12-26 08:19:27 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:19:53 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (14.4ms)
+  [1m[35mCACHE (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (15.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (13.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (8.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.3ms)
+  Rendered sequence/new.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 156ms (Views: 154.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-65f415ede1233004225038978a9ae433a9c6ba651f14ceb6d07e3eac36a014fe.js?body=1" for ::1 at 2016-12-26 08:19:53 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:20:15 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.8ms)
+  Rendered sequence/new.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 102ms (Views: 100.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-0cf67e40d682cb80a42551585d6da45a2974c08e15faa9e69a25a45a88ba20c6.js?body=1" for ::1 at 2016-12-26 08:20:15 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:20:27 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.5ms)
+  Rendered sequence/new.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 93ms (Views: 91.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-6d2561c6d962e324414956f40f3912cfdc2b671a6a86168f8522ffb46eb383e2.js?body=1" for ::1 at 2016-12-26 08:20:27 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:20:46 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.4ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (13.0ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (19.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  Rendered sequence/new.html.erb within layouts/application (65.9ms)
+Completed 200 OK in 92ms (Views: 90.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:20:53 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.5ms)
+  Rendered sequence/new.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:21:32 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.5ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (10.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (20.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.9ms)
+  Rendered sequence/new.html.erb within layouts/application (64.2ms)
+Completed 200 OK in 149ms (Views: 148.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/script.self-ff833efab6b1ebeb6af7b7b2a6cbb5a3f66d0819897555e7f8e76b32ee980531.js?body=1" for ::1 at 2016-12-26 08:21:33 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:21:44 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.6ms)
+  Rendered sequence/new.html.erb within layouts/application (45.9ms)
+Completed 200 OK in 130ms (Views: 129.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-2c9fd154fa151198c0081f4560b60cfb6f2af7a8da1bb434018a70cd723f3246.js?body=1" for ::1 at 2016-12-26 08:21:44 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:22:14 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.7ms)
+  Rendered sequence/new.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 105ms (Views: 104.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-383658544f6095910013418287154eae30793c41a11aeb2b91b9bb2acd8b4c8d.js?body=1" for ::1 at 2016-12-26 08:22:15 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:22:39 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.7ms)
+  Rendered sequence/new.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-c1abce040d0042f3eeb18509cfc2b2891155bbd8863b1080ed6d9eddba5b7615.js?body=1" for ::1 at 2016-12-26 08:22:39 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:22:49 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.0ms)
+  Rendered sequence/new.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 112ms (Views: 109.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-dcf05634fc0305a9b09acce1064c9a529903dba448ad3e194e4bbf21193df3fa.js?body=1" for ::1 at 2016-12-26 08:22:50 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:22:58 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.5ms)
+  Rendered sequence/new.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 88ms (Views: 86.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-d512027afafaba778a3baa6b996de0bd2b7de14287934313b020a217b94308b4.js?body=1" for ::1 at 2016-12-26 08:22:58 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:23:12 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (9.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.1ms)
+  Rendered sequence/new.html.erb within layouts/application (37.6ms)
+Completed 200 OK in 113ms (Views: 112.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-df3bacc37ece66ac40b50bb9cff3209cf228472aef94895da7064e8eccaa58e6.js?body=1" for ::1 at 2016-12-26 08:23:12 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:23:26 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (7.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (8.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.4ms)
+  Rendered sequence/new.html.erb within layouts/application (45.6ms)
+Completed 200 OK in 129ms (Views: 128.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-c20a81f2f02b197b8ca056ac95c5d9cb8eecb5926fa454404240820164c0e6bc.js?body=1" for ::1 at 2016-12-26 08:23:26 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:23:59 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.4ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.3ms)
+  Rendered sequence/new.html.erb within layouts/application (39.9ms)
+Completed 200 OK in 118ms (Views: 116.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-7eabb83d5fd082c47dd9506ba0b10b258c06082a2482ceb75dde8ab8cdeb57dc.js?body=1" for ::1 at 2016-12-26 08:23:59 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:24:02 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (6.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.6ms)
+  Rendered sequence/new.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 106ms (Views: 104.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-993893488a3ef85df3110e3748169285395346d0d2cd5ae06f49e2be4faa81ce.js?body=1" for ::1 at 2016-12-26 08:24:02 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:24:20 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  Rendered sequence/new.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 101ms (Views: 100.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-16089e88fee7aa889fe6729df81b206d999cefdd030dce9b49fea59ca5a971f1.js?body=1" for ::1 at 2016-12-26 08:24:20 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:24:54 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.4ms)
+  Rendered sequence/new.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:25:12 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.4ms)
+  Rendered sequence/new.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-97343c47460cbbf0288ed15aed2c6b46743af163ac376634ef6b48cf0d5586f5.js?body=1" for ::1 at 2016-12-26 08:25:12 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:25:45 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (1.4ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (10.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.5ms)
+  [1m[36mCACHE (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.4ms)
+  Rendered sequence/new.html.erb within layouts/application (45.4ms)
+Completed 200 OK in 146ms (Views: 143.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/script.self-e0f041e5d52d644db78cd79f5a91775175ab1ce8e49ba37aa2be87b080b73984.js?body=1" for ::1 at 2016-12-26 08:25:46 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:26:57 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.4ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (10.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (8.0ms)
+  [1m[35mCACHE (0.1ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (11.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.2ms)
+  Rendered sequence/new.html.erb within layouts/application (53.8ms)
+Completed 200 OK in 137ms (Views: 134.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/script.self-88df169865a9264aee8e063f6967bfe7533eb3282421def05d23c06401dce840.js?body=1" for ::1 at 2016-12-26 08:26:57 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:27:09 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (5.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.4ms)
+  Rendered sequence/new.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 115ms (Views: 113.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-de4f33893025e7ba2346e1011f7cc2b0c69b7766116fa0134873f2cc5044abd2.js?body=1" for ::1 at 2016-12-26 08:27:09 -0700
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-26 08:30:02 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (1.3ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (24.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (13.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (9.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (10.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (11.5ms)
+  Rendered sequence/new.html.erb within layouts/application (91.2ms)
+Completed 200 OK in 201ms (Views: 198.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/script.self-050aa784ec75962a4d8601c24d53278644c6bbf15af2dd15ae27a132806e0a44.js?body=1" for ::1 at 2016-12-26 08:30:03 -0700

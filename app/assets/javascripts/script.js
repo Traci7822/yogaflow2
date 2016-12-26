@@ -1,11 +1,16 @@
 $(document).ready(function() {
-  $('#poseBuilder').hide();
-})
+  $('.poseBuilder').hide();
 
-function setValue() {
-  $('#poseBuilder').hide();
-  var selection_value = $('select[name="sequence[pose_ids][]').val();
-  if (selection_value == 'new') {
-    $('#poseBuilder').show();
+});
+
+function setValue(poseNumber) {
+  for (var i = 0; i < $('.poseBuilder').length; i++) {
+    var id = $('.poseBuilder')[i].id
+    if (id.slice(-1) == poseNumber) {
+      var selection_value = $('select[name="sequence[pose_ids][]')[i].value
+      if (selection_value == "new") {
+        $("#" + id + ".poseBuilder").show();
+      }
+    }
   }
 }
