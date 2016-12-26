@@ -1,6 +1,8 @@
 $(document).ready(function() {
   $('.poseBuilder').hide();
-
+  $('.addMorePoses').click(function() {
+    //add another 5 pose selectors
+  })
 });
 
 function setValue(poseNumber) {
