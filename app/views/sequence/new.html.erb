@@ -15,11 +15,11 @@
       </div>
       <br>
       <div class="poseBuilderDisplay">
-        <% 5.times do |i| %>
+        <% 10.times do |i| %>
           <%= render :partial => 'layouts/poseBuilder', :locals => {:f => f, :i => i} %>
         <% end %>
       </div>
-      <button type="button" name="button" class="addMorePoses">Add more poses</button>
+      <!-- <button type="button" name="button" class="addMorePoses">Add more poses</button> -->
       <br>
       <br>
       <div id="newSequenceRepititions">
