@@ -23,13 +23,11 @@ class Sequence < ActiveRecord::Base
           if pose_id != ""
             if pose_id == "new"
               @new_pose_names = params[:poses_attributes].values[i]
-              if @new_pose_names.values[0] != "" || @new_pose_names.values[1] != ""
+              if valid_entry?(@new_pose_names)
                 create_new_pose(@new_pose_names, @sequence_poses_array, i)
-              else
-                # throw error, names cannot be blank
               end
             else
-              @sequence_poses_array[i] = Pose.find(pose_id)
+              add_existing_pose(pose_id, @sequence_poses_array, i)
             end
           end
         end
@@ -43,5 +41,17 @@ class Sequence < ActiveRecord::Base
     sequence[index] = @new_pose
   end
 
+  def add_existing_pose(pose_id, sequence, index)
+    sequence[index] = Pose.find(pose_id)
+  end
+
+  def valid_entry?(attribute_hash)
+    attribute_hash.each do |k, v|
+      if v == ""
+        false
+        # throw error, names cannot be blank
+      end
+    end
+  end
 
 end
