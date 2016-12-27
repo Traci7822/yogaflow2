@@ -24,9 +24,7 @@ class Sequence < ActiveRecord::Base
             if pose_id == "new"
               @new_pose_names = params[:poses_attributes].values[i]
               if @new_pose_names.values[0] != "" || @new_pose_names.values[1] != ""
-                @new_pose = Pose.find_or_create_by(sanskrit_name: @new_pose_names[:sanskrit_name], english_name: @new_pose_names[:english_name])
-                @new_pose.save
-                @sequence_poses_array[i] = @new_pose
+                create_new_pose(@new_pose_names, @sequence_poses_array, i)
               else
                 # throw error, names cannot be blank
               end
@@ -37,6 +35,12 @@ class Sequence < ActiveRecord::Base
         end
       end
     end
+  end
+
+  def create_new_pose(pose_names, sequence, index)
+    @new_pose = Pose.find_or_create_by(sanskrit_name: pose_names[:sanskrit_name], english_name: pose_names[:english_name])
+    @new_pose.save
+    sequence[index] = @new_pose
   end
 
 
