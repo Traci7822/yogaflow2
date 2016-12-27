@@ -5,12 +5,11 @@ class SequenceController < ApplicationController
 
   def new
     @sequence = Sequence.new
-    10.times do
-      @sequence.poses.build
-    end
+    @sequence.poses.build
   end
 
   def create
+    binding.pry
     @sequence = Sequence.create(title: sequence_params[:title], difficulty: sequence_params[:difficulty], repititions: sequence_params[:repititions])
     if @sequence.valid?
       # build method to add poses here (pre-existing & new)
@@ -22,6 +21,6 @@ class SequenceController < ApplicationController
 
   def sequence_params
     # new poses aren't passing in input
-    params.require(:sequence).permit(:title, :difficulty, :repititions, poses: [:sanskrit_name, :english_name], pose_ids: [])
+    params.require(:sequence).permit(:title, :difficulty, :repititions, poses_attributes: [:sanskrit_name, :english_name], pose_ids: [])
   end
 end
