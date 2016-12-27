@@ -13050,3 +13050,1787 @@ Did you mean?  sequence_poses
 Started POST "/sequence" for ::1 at 2016-12-27 05:58:41 -0700
 Processing by SequenceController#create as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"UTWDI25mIJ/AscDg/i45Y+cevRTPdws5OxiPE6TMvyWsl8CxrYtqvuT36kUXLv6cin5xVjnJQx4ug47Cu/BUyg==", "sequence"=>{"title"=>"zzz", "difficulty"=>"3", "pose_ids"=>["12", "11", "6", "new", "new", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"", "english_name"=>""}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"zxc", "english_name"=>"vbn"}, "4"=>{"sanskrit_name"=>"asd", "english_name"=>"fgh"}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"2"}, "commit"=>"Create Sequence"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zzz' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mSequence Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zzz' LIMIT 1[0m
+Completed 500 Internal Server Error in 128328ms (ActiveRecord: 1.4ms)
+
+ActionView::MissingTemplate (Missing template sequence/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/traci/code/yogaflow2/app/views"
+):
+  actionview (4.2.6) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.6) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.5) lib/rack/etag.rb:24:in `call'
+  rack (1.6.5) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.5) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (58.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (100.9ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:00:49 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UTWDI25mIJ/AscDg/i45Y+cevRTPdws5OxiPE6TMvyWsl8CxrYtqvuT36kUXLv6cin5xVjnJQx4ug47Cu/BUyg==", "sequence"=>{"title"=>"zzz", "difficulty"=>"3", "pose_ids"=>["12", "11", "6", "new", "new", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"", "english_name"=>""}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"zxc", "english_name"=>"vbn"}, "4"=>{"sanskrit_name"=>"asd", "english_name"=>"fgh"}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"2"}, "commit"=>"Create Sequence"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zzz' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mSequence Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zzz' LIMIT 1[0m
+Completed 500 Internal Server Error in 2251ms (ActiveRecord: 1.0ms)
+
+ActionView::MissingTemplate (Missing template sequence/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/traci/code/yogaflow2/app/views"
+):
+  actionview (4.2.6) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.6) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.5) lib/rack/etag.rb:24:in `call'
+  rack (1.6.5) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.5) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (46.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (87.9ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:01:06 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UTWDI25mIJ/AscDg/i45Y+cevRTPdws5OxiPE6TMvyWsl8CxrYtqvuT36kUXLv6cin5xVjnJQx4ug47Cu/BUyg==", "sequence"=>{"title"=>"zzz", "difficulty"=>"3", "pose_ids"=>["12", "11", "6", "new", "new", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"", "english_name"=>""}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"zxc", "english_name"=>"vbn"}, "4"=>{"sanskrit_name"=>"asd", "english_name"=>"fgh"}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"2"}, "commit"=>"Create Sequence"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zzz' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mSequence Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zzz' LIMIT 1[0m
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.9ms)
+
+ActionView::MissingTemplate (Missing template sequence/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/traci/code/yogaflow2/app/views"
+):
+  actionview (4.2.6) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.6) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.5) lib/rack/etag.rb:24:in `call'
+  rack (1.6.5) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.5) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (55.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (110.2ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:01:10 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UTWDI25mIJ/AscDg/i45Y+cevRTPdws5OxiPE6TMvyWsl8CxrYtqvuT36kUXLv6cin5xVjnJQx4ug47Cu/BUyg==", "sequence"=>{"title"=>"zzz", "difficulty"=>"3", "pose_ids"=>["12", "11", "6", "new", "new", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"", "english_name"=>""}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"zxc", "english_name"=>"vbn"}, "4"=>{"sanskrit_name"=>"asd", "english_name"=>"fgh"}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"2"}, "commit"=>"Create Sequence"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zzz' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zzz' LIMIT 1[0m
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.5ms)
+
+ActionView::MissingTemplate (Missing template sequence/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/traci/code/yogaflow2/app/views"
+):
+  actionview (4.2.6) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.6) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.5) lib/rack/etag.rb:24:in `call'
+  rack (1.6.5) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.5) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (50.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (88.8ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-27 06:01:47 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.2ms)
+  Rendered sequence/new.html.erb within layouts/application (38.9ms)
+Completed 200 OK in 91ms (Views: 73.1ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:01:59 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OO9EsIoIVRZhaXBAW3G2sogq8gqz0tRJnvXqXWRFdGrFTQciSeUfN0UvWuWycXFN5Uo+SEVsnG6LbuuMe3mfhQ==", "sequence"=>{"title"=>"zcvz", "difficulty"=>"3", "pose_ids"=>["11", "3", "new", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"", "english_name"=>""}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"rert", "english_name"=>"vcbxcvb"}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>""}, "commit"=>"Create Sequence"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zcvz' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mSequence Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zcvz' LIMIT 1[0m
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.4ms)
+
+ActionView::MissingTemplate (Missing template sequence/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/traci/code/yogaflow2/app/views"
+):
+  actionview (4.2.6) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.6) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.5) lib/rack/etag.rb:24:in `call'
+  rack (1.6.5) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.5) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (49.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (91.6ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:02:17 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OO9EsIoIVRZhaXBAW3G2sogq8gqz0tRJnvXqXWRFdGrFTQciSeUfN0UvWuWycXFN5Uo+SEVsnG6LbuuMe3mfhQ==", "sequence"=>{"title"=>"zcvz", "difficulty"=>"3", "pose_ids"=>["11", "3", "new", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"", "english_name"=>""}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"rert", "english_name"=>"vcbxcvb"}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>""}, "commit"=>"Create Sequence"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zcvz' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mSequence Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'zcvz' LIMIT 1[0m
+  Rendered layouts/_poseBuilder.html.erb (8.2ms)
+  Rendered layouts/_poseBuilder.html.erb (0.1ms)
+  Rendered layouts/_poseBuilder.html.erb (0.1ms)
+  Rendered layouts/_poseBuilder.html.erb (0.1ms)
+  Rendered layouts/_poseBuilder.html.erb (0.1ms)
+  Rendered layouts/_poseBuilder.html.erb (0.1ms)
+  Rendered layouts/_poseBuilder.html.erb (0.1ms)
+  Rendered layouts/_poseBuilder.html.erb (0.1ms)
+  Rendered layouts/_poseBuilder.html.erb (0.1ms)
+  Rendered layouts/_poseBuilder.html.erb (0.1ms)
+  Rendered sequence/new.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 71ms (Views: 48.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/sequence" for ::1 at 2016-12-27 06:02:24 -0700
+
+ActionController::RoutingError (No route matches [GET] "/sequence"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (95.7ms)
+
+
+Started GET "/sequence" for ::1 at 2016-12-27 06:02:44 -0700
+
+ActionController::RoutingError (No route matches [GET] "/sequence"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.8ms)
+
+
+Started GET "/sequence" for ::1 at 2016-12-27 06:02:46 -0700
+
+ActionController::RoutingError (No route matches [GET] "/sequence"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (91.1ms)
+
+
+Started GET "/sequence" for ::1 at 2016-12-27 06:03:02 -0700
+
+ActionController::RoutingError (No route matches [GET] "/sequence"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.1ms)
+
+
+Started GET "/sequence" for ::1 at 2016-12-27 06:03:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/sequence"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.9ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-27 06:03:18 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.6ms)
+  [1m[35mCACHE (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.4ms)
+  Rendered sequence/new.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 85ms (Views: 65.7ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:03:19 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yYB7hv+3uy7JgssYKDMav9D8rpe0JpxPVpnNo5sQoag0IjgUPFrxD+3E4b3BM91AvZxi1UKY1GhDAsxyhCxKRw==", "sequence"=>{"title"=>"", "difficulty"=>"", "pose_ids"=>["", "", "", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"", "english_name"=>""}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>""}, "commit"=>"Create Sequence"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mSequence Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = '' LIMIT 1[0m
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  Rendered layouts/_sequenceHeader.html.erb (7.8ms)
+  Rendered sequence/index.html.erb within layouts/application (12.3ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `sequence_id' for #<Sequence:0x007fbb88bba620>
+Did you mean?  sequence_pose_ids):
+    1: <span>
+    2:   <h1>Please select a yoga sequence:
+    3:     <h4>
+    4:       <%= collection_select(:sequence, :sequence_id, @sequences, :id, :title, {:class => 'sequence_selection'}) %>
+    5:     </h4>
+    6:   </h1>
+    7: </span>
+  app/views/layouts/_sequenceHeader.html.erb:4:in `_app_views_layouts__sequence_eader_html_erb___1579863044936232327_70221671189700'
+  app/views/sequence/index.html.erb:15:in `_app_views_sequence_index_html_erb___2391999002014619695_70221647785920'
+  app/controllers/sequence_controller.rb:17:in `create'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.1ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-27 06:03:41 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  Rendered sequence/new.html.erb within layouts/application (37.1ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:04:00 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyui", "difficulty"=>"2", "pose_ids"=>["new", "7", "", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'khjkgyui' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "sequences" ("title", "difficulty", "repititions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "khjkgyui"], ["difficulty", 2], ["repititions", 3], ["created_at", "2016-12-27 13:04:00.728767"], ["updated_at", "2016-12-27 13:04:00.728767"]]
+  [1m[36m (3.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mSequence Exists (0.2ms)[0m  SELECT  1 AS one FROM "sequences" WHERE ("sequences"."title" = 'khjkgyui' AND "sequences"."id" != 27) LIMIT 1
+Completed 500 Internal Server Error in 104211ms (ActiveRecord: 4.4ms)
+
+ActionView::MissingTemplate (Missing template sequence/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/traci/code/yogaflow2/app/views"
+):
+  actionview (4.2.6) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.6) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.5) lib/rack/etag.rb:24:in `call'
+  rack (1.6.5) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.5) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (48.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.4ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:05:48 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyui", "difficulty"=>"2", "pose_ids"=>["new", "7", "", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSequence Exists (0.1ms)[0m  SELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'khjkgyui' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35mSequence Exists (0.1ms)[0m  SELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'khjkgyui' LIMIT 1
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  Rendered layouts/_sequenceHeader.html.erb (9.5ms)
+  Rendered sequence/index.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.8ms)
+
+ActionView::Template::Error (undefined method `sequence_id' for #<Sequence:0x007fbb8780bef8>
+Did you mean?  sequence_pose_ids):
+    1: <span>
+    2:   <h1>Please select a yoga sequence:
+    3:     <h4>
+    4:       <%= collection_select(:sequence, :sequence_id, @sequences, :id, :title, {:class => 'sequence_selection'}) %>
+    5:     </h4>
+    6:   </h1>
+    7: </span>
+  app/views/layouts/_sequenceHeader.html.erb:4:in `_app_views_layouts__sequence_eader_html_erb___1579863044936232327_70221671189700'
+  app/views/sequence/index.html.erb:15:in `_app_views_sequence_index_html_erb___2391999002014619695_70221647785920'
+  app/controllers/sequence_controller.rb:17:in `create'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (101.3ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:05:56 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyuisdfsdf", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSequence Exists (0.1ms)[0m  SELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'khjkgyuisdfsdf' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sequences" ("title", "difficulty", "repititions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "khjkgyuisdfsdf"], ["difficulty", 2], ["repititions", 3], ["created_at", "2016-12-27 13:05:56.916127"], ["updated_at", "2016-12-27 13:05:56.916127"]]
+  [1m[35m (5.4ms)[0m  commit transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE ("sequences"."title" = 'khjkgyuisdfsdf' AND "sequences"."id" != 28) LIMIT 1[0m
+Completed 500 Internal Server Error in 419851ms (ActiveRecord: 6.1ms)
+
+ActionView::MissingTemplate (Missing template sequence/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/traci/code/yogaflow2/app/views"
+):
+  actionview (4.2.6) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.6) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.5) lib/rack/etag.rb:24:in `call'
+  rack (1.6.5) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.5) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (47.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.0ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:13:01 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyudsfsdfisdfsdf", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/traci/code/yogaflow2/app/models/sequence.rb:31: syntax error, unexpected keyword_elsif, expecting keyword_end
+      elsif attribute[0] == "poses_attributes"
+           ^
+/Users/traci/code/yogaflow2/app/models/sequence.rb:52: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/sequence.rb:31: syntax error, unexpected keyword_elsif, expecting keyword_end
+  app/models/sequence.rb:52: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/sequence_controller.rb:12:in `create'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.9ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:13:41 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyudsfsdfisdfsdf", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/traci/code/yogaflow2/app/models/sequence.rb:52: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/sequence.rb:52: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/sequence_controller.rb:12:in `create'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (88.7ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:13:46 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyudsfsdfisdfsdf", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/traci/code/yogaflow2/app/models/sequence.rb:52: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/sequence.rb:52: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/sequence_controller.rb:12:in `create'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (91.2ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:14:00 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyudsfsdfisdfsdf", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/traci/code/yogaflow2/app/models/sequence.rb:51: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/models/sequence.rb:51: syntax error, unexpected end-of-input, expecting keyword_end
+  app/controllers/sequence_controller.rb:12:in `create'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (88.9ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:15:34 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyudsfsdfisdfsdf", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'khjkgyudsfsdfisdfsdf' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "sequences" ("title", "difficulty", "repititions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "khjkgyudsfsdfisdfsdf"], ["difficulty", 2], ["repititions", 3], ["created_at", "2016-12-27 13:15:34.955527"], ["updated_at", "2016-12-27 13:15:34.955527"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mSequence Exists (0.2ms)[0m  SELECT  1 AS one FROM "sequences" WHERE ("sequences"."title" = 'khjkgyudsfsdfisdfsdf' AND "sequences"."id" != 29) LIMIT 1
+Completed   in 53772ms (ActiveRecord: 2.8ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:16:51 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyudsfsdfisdfsdf", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'khjkgyudsfsdfisdfsdf' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mSequence Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'khjkgyudsfsdfisdfsdf' LIMIT 1[0m
+  Rendered layouts/_navBar.html.erb (0.5ms)
+  Rendered layouts/_sequenceHeader.html.erb (17.8ms)
+  Rendered sequence/index.html.erb within layouts/application (24.3ms)
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (undefined method `sequence_id' for #<Sequence:0x007faf55236a48>
+Did you mean?  sequence_pose_ids):
+    1: <span>
+    2:   <h1>Please select a yoga sequence:
+    3:     <h4>
+    4:       <%= collection_select(:sequence, :sequence_id, @sequences, :id, :title, {:class => 'sequence_selection'}) %>
+    5:     </h4>
+    6:   </h1>
+    7: </span>
+  app/views/layouts/_sequenceHeader.html.erb:4:in `_app_views_layouts__sequence_eader_html_erb__2038839138674173157_70195506405900'
+  app/views/sequence/index.html.erb:15:in `_app_views_sequence_index_html_erb__3326522752542363037_70195502834400'
+  app/controllers/sequence_controller.rb:17:in `create'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (66.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (56.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (127.2ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:16:54 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyudsfsdfisdfsdf", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'khjkgyudsfsdfisdfsdf' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mSequence Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'khjkgyudsfsdfisdfsdf' LIMIT 1[0m
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  Rendered layouts/_sequenceHeader.html.erb (8.5ms)
+  Rendered sequence/index.html.erb within layouts/application (10.7ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `sequence_id' for #<Sequence:0x007faf551feda0>
+Did you mean?  sequence_pose_ids):
+    1: <span>
+    2:   <h1>Please select a yoga sequence:
+    3:     <h4>
+    4:       <%= collection_select(:sequence, :sequence_id, @sequences, :id, :title, {:class => 'sequence_selection'}) %>
+    5:     </h4>
+    6:   </h1>
+    7: </span>
+  app/views/layouts/_sequenceHeader.html.erb:4:in `_app_views_layouts__sequence_eader_html_erb__2038839138674173157_70195506405900'
+  app/views/sequence/index.html.erb:15:in `_app_views_sequence_index_html_erb__3326522752542363037_70195502834400'
+  app/controllers/sequence_controller.rb:17:in `create'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.5ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:16:58 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyudsfsdfisdfsasdfasdfadf", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'khjkgyudsfsdfisdfsasdfasdfadf' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "sequences" ("title", "difficulty", "repititions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "khjkgyudsfsdfisdfsasdfasdfadf"], ["difficulty", 2], ["repititions", 3], ["created_at", "2016-12-27 13:16:58.518849"], ["updated_at", "2016-12-27 13:16:58.518849"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mSequence Exists (0.3ms)[0m  SELECT  1 AS one FROM "sequences" WHERE ("sequences"."title" = 'khjkgyudsfsdfisdfsasdfasdfadf' AND "sequences"."id" != 30) LIMIT 1
+Completed 500 Internal Server Error in 152174ms (ActiveRecord: 2.4ms)
+
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  app/models/sequence.rb:26:in `block (2 levels) in set_sequence_poses'
+  app/models/sequence.rb:22:in `each'
+  app/models/sequence.rb:22:in `each_with_index'
+  app/models/sequence.rb:22:in `block in set_sequence_poses'
+  app/models/sequence.rb:20:in `set_sequence_poses'
+  app/controllers/sequence_controller.rb:15:in `create'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.5ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:19:52 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"khjkgyudsfsdfissdfsdfdfsasdfasdfadf", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSequence Exists (0.1ms)[0m  SELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'khjkgyudsfsdfissdfsdfdfsasdfasdfadf' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "sequences" ("title", "difficulty", "repititions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "khjkgyudsfsdfissdfsdfdfsasdfasdfadf"], ["difficulty", 2], ["repititions", 3], ["created_at", "2016-12-27 13:19:52.953955"], ["updated_at", "2016-12-27 13:19:52.953955"]]
+  [1m[35m (1.8ms)[0m  commit transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE ("sequences"."title" = 'khjkgyudsfsdfissdfsdfdfsasdfasdfadf' AND "sequences"."id" != 31) LIMIT 1[0m
+  [1m[35mPose Load (0.1ms)[0m  SELECT  "poses".* FROM "poses" WHERE "poses"."sanskrit_name" = ? AND "poses"."english_name" = ? LIMIT 1  [["sanskrit_name", "jkghjk"], ["english_name", "m,nm,"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "poses" ("sanskrit_name", "english_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["sanskrit_name", "jkghjk"], ["english_name", "m,nm,"], ["created_at", "2016-12-27 13:20:45.458636"], ["updated_at", "2016-12-27 13:20:45.458636"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mPose Load (0.2ms)[0m  SELECT  "poses".* FROM "poses" WHERE "poses"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT  "poses".* FROM "poses" WHERE "poses"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 500 Internal Server Error in 285031ms (ActiveRecord: 6.3ms)
+
+ActionView::MissingTemplate (Missing template sequence/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/traci/code/yogaflow2/app/views"
+):
+  actionview (4.2.6) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.6) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.5) lib/rack/etag.rb:24:in `call'
+  rack (1.6.5) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.5) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (47.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.2ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:24:43 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"werwrwerewr", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'werwrwerewr' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "sequences" ("title", "difficulty", "repititions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "werwrwerewr"], ["difficulty", 2], ["repititions", 3], ["created_at", "2016-12-27 13:24:43.649151"], ["updated_at", "2016-12-27 13:24:43.649151"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mSequence Exists (0.2ms)[0m  SELECT  1 AS one FROM "sequences" WHERE ("sequences"."title" = 'werwrwerewr' AND "sequences"."id" != 32) LIMIT 1
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT  "poses".* FROM "poses" WHERE "poses"."sanskrit_name" = ? AND "poses"."english_name" = ? LIMIT 1[0m  [["sanskrit_name", "jkghjk"], ["english_name", "m,nm,"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mPose Load (0.2ms)[0m  SELECT  "poses".* FROM "poses" WHERE "poses"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT  "poses".* FROM "poses" WHERE "poses"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 500 Internal Server Error in 30573ms (ActiveRecord: 4.7ms)
+
+ActionView::MissingTemplate (Missing template sequence/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/traci/code/yogaflow2/app/views"
+):
+  actionview (4.2.6) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.6) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.5) lib/rack/etag.rb:24:in `call'
+  rack (1.6.5) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.5) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (46.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (88.7ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 06:25:18 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmYCiVW9uXsqhXibKq1m4kv+qhnAU3EZmpGbJK9Rja3LxEEbllDzWg7DUj7DraEdJp5mWzbtOT6PCpr1sG1mQg==", "sequence"=>{"title"=>"werwrwerewdfsdfr", "difficulty"=>"2", "pose_ids"=>["new", "7", "4", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"jkghjk", "english_name"=>"m,nm,"}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"", "english_name"=>""}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"3"}, "commit"=>"Create Sequence"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSequence Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'werwrwerewdfsdfr' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "sequences" ("title", "difficulty", "repititions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["title", "werwrwerewdfsdfr"], ["difficulty", 2], ["repititions", 3], ["created_at", "2016-12-27 13:25:18.546607"], ["updated_at", "2016-12-27 13:25:18.546607"]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mSequence Exists (0.2ms)[0m  SELECT  1 AS one FROM "sequences" WHERE ("sequences"."title" = 'werwrwerewdfsdfr' AND "sequences"."id" != 33) LIMIT 1
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT  "poses".* FROM "poses" WHERE "poses"."sanskrit_name" = ? AND "poses"."english_name" = ? LIMIT 1[0m  [["sanskrit_name", "jkghjk"], ["english_name", "m,nm,"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mPose Load (0.2ms)[0m  SELECT  "poses".* FROM "poses" WHERE "poses"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT  "poses".* FROM "poses" WHERE "poses"."id" = ? LIMIT 1[0m  [["id", 4]]
