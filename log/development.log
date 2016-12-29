@@ -17563,3 +17563,21 @@ Processing by SequenceController#show as HTML
   [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 36]]
   Rendered sequence/show.html.erb within layouts/application (1.0ms)
 Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:57:34 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.1ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (0.9ms)
+  Rendered sequence/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:57:34 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.3ms)
+  Rendered sequence/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.1ms)
