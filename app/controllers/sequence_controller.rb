@@ -12,10 +12,14 @@ class SequenceController < ApplicationController
     @sequence = Sequence.create(title: sequence_params[:title], difficulty: sequence_params[:difficulty], repititions: sequence_params[:repititions])
     if @sequence.valid?
       @sequence.set_sequence_poses(sequence_params)
-      redirect_to sequences_path
+      redirect_to root_path
     else
       render :index
     end
+  end
+
+  def show
+    @sequence = Sequence.find(params[:id])
   end
 
   private

@@ -15714,3 +15714,1852 @@ Did you mean?  sequence_pose_ids):
   Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (86.7ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 07:01:16 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.5ms)
+  [1m[35mSequence Load (1.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (14.4ms)
+  Rendered sequence/index.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 378ms (Views: 353.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-27 07:01:19 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (1.7ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (7.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (6.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.8ms)
+  Rendered sequence/new.html.erb within layouts/application (103.4ms)
+Completed 200 OK in 184ms (Views: 135.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 07:03:53 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.3ms)
+  Rendered sequence/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 07:04:25 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (1.4ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (5.8ms)
+  Rendered sequence/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 33ms (Views: 22.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-27 07:07:34 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (1.3ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.4ms)
+  Rendered sequence/new.html.erb within layouts/application (38.2ms)
+Completed 200 OK in 70ms (Views: 51.7ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 07:07:49 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ozmpz84z2QPL46+oIncGdd78Obllh9069T32AGa7FnzGm+pdDd6TIu+lhQ3Ld8GKs5z1+5M5lR3gpvfReYf9kw==", "sequence"=>{"title"=>"12312321313", "difficulty"=>"3", "pose_ids"=>["3", "15", "new", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"", "english_name"=>""}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"woot", "english_name"=>"woot woot"}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"2"}, "commit"=>"Create Sequence"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSequence Exists (0.2ms)[0m  SELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = '12312321313' LIMIT 1
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "sequences" ("title", "difficulty", "repititions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "12312321313"], ["difficulty", 3], ["repititions", 2], ["created_at", "2016-12-27 14:07:49.872948"], ["updated_at", "2016-12-27 14:07:49.872948"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36mSequence Exists (1.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE ("sequences"."title" = '12312321313' AND "sequences"."id" != 37) LIMIT 1[0m
+  [1m[35mPose Load (0.2ms)[0m  SELECT  "poses".* FROM "poses" WHERE "poses"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT  "poses".* FROM "poses" WHERE "poses"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35mPose Load (0.1ms)[0m  SELECT  "poses".* FROM "poses" WHERE "poses"."sanskrit_name" = ? AND "poses"."english_name" = ? LIMIT 1  [["sanskrit_name", "woot"], ["english_name", "woot woot"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "poses" ("sanskrit_name", "english_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["sanskrit_name", "woot"], ["english_name", "woot woot"], ["created_at", "2016-12-27 14:07:49.893119"], ["updated_at", "2016-12-27 14:07:49.893119"]]
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 45ms (ActiveRecord: 8.6ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 07:07:49 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.9ms)
+  Rendered sequence/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 07:34:39 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[36mSequence Load (0.3ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (2.9ms)
+  Rendered sequence/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:01:41 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.6ms)
+  Rendered layouts/_sequenceHeader.html.erb (2.8ms)
+  Rendered sequence/index.html.erb within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/traci/code/yogaflow2/app/views/layouts/_sequenceHeader.html.erb:4: syntax error, unexpected ':', expecting ')'
+...lect(@sequences, :id, :title) :onchange => "window.location....
+...                               ^):
+  app/views/layouts/_sequenceHeader.html.erb:4: syntax error, unexpected ':', expecting ')'
+  app/views/sequence/index.html.erb:15:in `_app_views_sequence_index_html_erb__2970872916526829031_70179202078160'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (56.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (124.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:01:56 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[35mSequence Load (0.4ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (4.8ms)
+  Rendered sequence/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:02:22 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.4ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  [1m[35mPose Load (1.3ms)[0m  SELECT "poses".* FROM "poses"
+  Rendered layouts/_sequenceHeader.html.erb (60.5ms)
+  Rendered sequence/index.html.erb within layouts/application (66.0ms)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 2.0ms)
+
+ActionView::Template::Error (undefined local variable or method `id' for #<#<Class:0x007fa7bbbb9ad0>:0x007fa7bc66cc98>):
+    1: <span>
+    2:   <h1>Please select a yoga sequence:
+    3:     <h4>
+    4:       <%= select_tag "sequences", options_from_collection_for_select(@sequences, :id, :title), :onchange => "window.location.replace(sequence_path(#{id}))"%>
+    5:     </h4>
+    6:   </h1>
+    7: </span>
+  app/views/layouts/_sequenceHeader.html.erb:4:in `_app_views_layouts__sequence_eader_html_erb__4058285441113201954_70179250203000'
+  app/views/sequence/index.html.erb:15:in `_app_views_sequence_index_html_erb__2970872916526829031_70179202078160'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (66.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (130.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:02:31 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  [1m[35mPose Load (0.2ms)[0m  SELECT "poses".* FROM "poses"
+  Rendered layouts/_sequenceHeader.html.erb (42.5ms)
+  Rendered sequence/index.html.erb within layouts/application (45.2ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined local variable or method `sequence_id' for #<#<Class:0x007fa7bbbb9ad0>:0x007fa7c2809dc0>
+Did you mean?  sequence_index_url
+               sequence_index_path
+               sequence_url
+               sequence_path
+               @sequences):
+    1: <span>
+    2:   <h1>Please select a yoga sequence:
+    3:     <h4>
+    4:       <%= select_tag "sequences", options_from_collection_for_select(@sequences, :id, :title), :onchange => "window.location.replace(sequence_path(#{sequence_id}))"%>
+    5:     </h4>
+    6:   </h1>
+    7: </span>
+  app/views/layouts/_sequenceHeader.html.erb:4:in `_app_views_layouts__sequence_eader_html_erb__4058285441113201954_70179207508740'
+  app/views/sequence/index.html.erb:15:in `_app_views_sequence_index_html_erb__2970872916526829031_70179202078160'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (88.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:02:45 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (3.1ms)
+  Rendered sequence/index.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"sequence"} missing required keys: [:id]):
+    1: <span>
+    2:   <h1>Please select a yoga sequence:
+    3:     <h4>
+    4:       <%= select_tag "sequences", options_from_collection_for_select(@sequences, :id, :title), :onchange => "window.location.replace(#{sequence_path})"%>
+    5:     </h4>
+    6:   </h1>
+    7: </span>
+  app/views/layouts/_sequenceHeader.html.erb:4:in `_app_views_layouts__sequence_eader_html_erb__4058285441113201954_70179230488480'
+  app/views/sequence/index.html.erb:15:in `_app_views_sequence_index_html_erb__2970872916526829031_70179202078160'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (53.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (104.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:04:37 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.4ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_sequenceHeader.html.erb (29.6ms)
+  Rendered sequence/index.html.erb within layouts/application (33.4ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined local variable or method `id' for #<#<Class:0x007fa7bbbb9ad0>:0x007fa7bf8ea990>):
+    1: <span>
+    2:   <h1>Please select a yoga sequence:
+    3:     <h4>
+    4:       <%= select_tag "sequences", options_from_collection_for_select(@sequences, :id, :title), :onchange => "window.location.replace(#{sequence_path(id)})"%>
+    5:     </h4>
+    6:   </h1>
+    7: </span>
+  app/views/layouts/_sequenceHeader.html.erb:4:in `_app_views_layouts__sequence_eader_html_erb__4058285441113201954_70179194869020'
+  app/views/sequence/index.html.erb:15:in `_app_views_sequence_index_html_erb__2970872916526829031_70179202078160'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (98.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:04:45 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered layouts/_sequenceHeader.html.erb (37.6ms)
+  Rendered sequence/index.html.erb within layouts/application (40.6ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined local variable or method `sequence_id' for #<#<Class:0x007fa7bbbb9ad0>:0x007fa7bfa0f050>
+Did you mean?  sequence_index_url
+               sequence_index_path
+               sequence_url
+               sequence_path
+               @sequences):
+    1: <span>
+    2:   <h1>Please select a yoga sequence:
+    3:     <h4>
+    4:       <%= select_tag "sequences", options_from_collection_for_select(@sequences, :id, :title), :onchange => "window.location.replace(#{sequence_path(sequence_id)})"%>
+    5:     </h4>
+    6:   </h1>
+    7: </span>
+  app/views/layouts/_sequenceHeader.html.erb:4:in `_app_views_layouts__sequence_eader_html_erb__4058285441113201954_70179229183760'
+  app/views/sequence/index.html.erb:15:in `_app_views_sequence_index_html_erb__2970872916526829031_70179202078160'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (57.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (40.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.6ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:05:09 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.8ms)
+  Rendered sequence/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:32:53 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.3ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (2.2ms)
+  Rendered sequence/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:33:48 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.7ms)
+  Rendered sequence/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 118ms (Views: 116.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/script.self-f18c850b342f3a0507f7ad0edfcc8468462fea358e7cec027d50f16487019e42.js?body=1" for ::1 at 2016-12-27 08:33:48 -0700
+
+
+Started GET "/" for ::1 at 2016-12-27 08:38:38 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[36mSequence Load (0.4ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.8ms)
+  Rendered sequence/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 104ms (Views: 102.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/script.self-86a7428ce4f01ac6f62d64604755251f95402e98980666f0aa28df01a559bc37.js?body=1" for ::1 at 2016-12-27 08:38:38 -0700
+
+
+Started GET "/undefined" for ::1 at 2016-12-27 08:38:40 -0700
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (21.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (89.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (103.5ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:38:55 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.4ms)
+  [1m[35mSequence Load (0.3ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.7ms)
+  Rendered sequence/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 92ms (Views: 90.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-583db7dc671f7581b62de9537007535cf29b7c1af51a43c4aa432c67a3a928fb.js?body=1" for ::1 at 2016-12-27 08:38:55 -0700
+
+
+Started GET "/undefined" for ::1 at 2016-12-27 08:38:57 -0700
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.9ms)
+
+
+Started GET "/undefined" for ::1 at 2016-12-27 08:40:42 -0700
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (98.9ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:40:45 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (2.1ms)
+  Rendered sequence/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 107ms (Views: 105.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-507e820c08bdea144c09b69795687955b183319585c09f494c50e6ba0f50763f.js?body=1" for ::1 at 2016-12-27 08:40:46 -0700
+
+
+Started GET "/undefined" for ::1 at 2016-12-27 08:40:47 -0700
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (98.9ms)
+
+
+Started GET "/undefined" for ::1 at 2016-12-27 08:58:07 -0700
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (110.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (128.2ms)
+
+
+Started GET "/undefined" for ::1 at 2016-12-27 08:58:09 -0700
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (99.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 08:58:13 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.8ms)
+  [1m[35mSequence Load (0.7ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (6.7ms)
+  Rendered sequence/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 150ms (Views: 145.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/script.self-adbfe2db6f6a98160766abce84cc49e432e881e91952ba49f52b990bd812a0ac.js?body=1" for ::1 at 2016-12-27 08:58:13 -0700
+
+
+Started GET "/undefined" for ::1 at 2016-12-27 09:12:24 -0700
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (104.6ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 09:12:27 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.6ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (2.1ms)
+  Rendered sequence/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 106ms (Views: 104.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/script.self-5ea76bbd7918a6d628e46bfd976da97f8762dac42103c453f8a86b2332271382.js?body=1" for ::1 at 2016-12-27 09:12:27 -0700
+
+
+Started GET "/undefined" for ::1 at 2016-12-27 09:25:20 -0700
+
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (89.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (67.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (138.9ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 09:27:33 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.7ms)
+  Rendered layouts/_sequenceHeader.html.erb (1.7ms)
+  Rendered sequence/index.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/traci/code/yogaflow2/app/views/layouts/_sequenceHeader.html.erb:10: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/traci/code/yogaflow2/app/views/layouts/_sequenceHeader.html.erb:12: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/layouts/_sequenceHeader.html.erb:10: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/layouts/_sequenceHeader.html.erb:12: syntax error, unexpected keyword_end, expecting ')'
+  app/views/sequence/index.html.erb:15:in `_app_views_sequence_index_html_erb__2970872916526829031_70179202078160'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (107.8ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 09:27:42 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.8ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (7.6ms)
+  Rendered sequence/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 128ms (Views: 126.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/script.self-e12a1e46bbf15fcb3f199032d0d29f9168573ed27cac3f0c32de4ac008bcf0ba.js?body=1" for ::1 at 2016-12-27 09:27:42 -0700
+
+
+Started GET "/" for ::1 at 2016-12-27 09:29:16 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.6ms)
+  Rendered sequence/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 96ms (Views: 95.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-401539bed1eb7f4a0cf5c27ee5390d248cc908cfec461055a4a0e69702784a1d.js?body=1" for ::1 at 2016-12-27 09:29:17 -0700
+
+
+Started GET "/" for ::1 at 2016-12-27 09:29:50 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.3ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (5.4ms)
+  Rendered sequence/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 42ms (Views: 31.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/sequences/1" for ::1 at 2016-12-27 09:29:55 -0700
+
+ActionController::RoutingError (No route matches [GET] "/sequences/1"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/traci/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (64.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.2ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (113.6ms)
+
+
+Started GET "/sequence/1" for ::1 at 2016-12-27 09:30:04 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered sequence/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51826ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sequence/1" for ::1 at 2016-12-27 09:30:58 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 9ms (ActiveRecord: 0.5ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Sequence with 'id'=1):
+  app/controllers/sequence_controller.rb:22:in `show'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (56.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (115.3ms)
+
+
+Started PUT "/__web_console/repl_sessions/0fba484c2757020acbd716e000778913" for ::1 at 2016-12-27 09:31:11 -0700
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+
+
+Started GET "/sequence/1" for ::1 at 2016-12-27 09:31:15 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Sequence with 'id'=1):
+  app/controllers/sequence_controller.rb:22:in `show'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.9ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (97.2ms)
+
+
+Started GET "/sequence/30" for ::1 at 2016-12-27 09:31:17 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 30]]
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 30]]
+  Rendered sequence/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68609ms (Views: 27.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 09:32:29 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.5ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (7.6ms)
+  Rendered sequence/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 57ms (Views: 41.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/sequence/30" for ::1 at 2016-12-27 09:33:15 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 30]]
+  Rendered sequence/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/30" for ::1 at 2016-12-27 09:33:22 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 30]]
+  Rendered sequence/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 74ms (Views: 72.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/script.self-49fc2c8691b3aada47a292c379db647dc75f9024efdc54dd45ed626274863686.js?body=1" for ::1 at 2016-12-27 09:33:22 -0700
+
+
+Started GET "/" for ::1 at 2016-12-27 09:33:24 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.5ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (2.2ms)
+  Rendered sequence/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 09:34:50 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.3ms)
+  Rendered sequence/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 83ms (Views: 82.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/script.self-7a439a6431216a403e9ae1073cf106bc571be041b71016e72f4e77ee48fd3f9b.js?body=1" for ::1 at 2016-12-27 09:34:50 -0700
+
+
+Started GET "/sequence/30" for ::1 at 2016-12-27 09:34:52 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 30]]
+  Rendered sequence/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/37" for ::1 at 2016-12-27 09:34:57 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"37"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 37]]
+  Rendered sequence/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 09:35:42 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (2.1ms)
+  Rendered sequence/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 100ms (Views: 98.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-16acb270ac58268cbabfe46e29e0d8235e6331d49fb87ba0a5e17f096f87bd6f.js?body=1" for ::1 at 2016-12-27 09:35:42 -0700
+
+
+Started GET "/sequence/29" for ::1 at 2016-12-27 09:35:44 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 29]]
+  Rendered sequence/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/29" for ::1 at 2016-12-27 09:36:13 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 29]]
+  Rendered sequence/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/29" for ::1 at 2016-12-27 09:38:27 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 29]]
+  Rendered sequence/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/29" for ::1 at 2016-12-27 09:39:25 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 29]]
+  Rendered sequence/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/29" for ::1 at 2016-12-27 09:42:37 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 29]]
+  Rendered sequence/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/29" for ::1 at 2016-12-27 09:42:53 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 29]]
+  Rendered sequence/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/29" for ::1 at 2016-12-27 09:43:07 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 29]]
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 25]]
+  [1m[35mPose Load (0.2ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 25]]
+  Rendered sequence/show.html.erb within layouts/application (224788.3ms)
+Completed 200 OK in 224827ms (Views: 224825.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-27 09:46:55 -0700
+Processing by SequenceController#new as HTML
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (3.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (5.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.9ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (3.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (2.8ms)
+  Rendered sequence/new.html.erb within layouts/application (54.8ms)
+Completed 200 OK in 107ms (Views: 79.0ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/sequence" for ::1 at 2016-12-27 09:47:14 -0700
+Processing by SequenceController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e517tWqtfJs7W+y/sOJCiwnqlEHoELVwaMxrG+DacjGGPzgnqUA2uh8dxhpZ4oV0ZIpYAx6u/Vd9V2rK/+aZ3g==", "sequence"=>{"title"=>"qwerasdfzxcv", "difficulty"=>"5", "pose_ids"=>["22", "14", "new", "", "", "", "", "", "", ""], "poses_attributes"=>{"0"=>{"sanskrit_name"=>"", "english_name"=>""}, "1"=>{"sanskrit_name"=>"", "english_name"=>""}, "2"=>{"sanskrit_name"=>"mmmmm", "english_name"=>"nnnn"}, "3"=>{"sanskrit_name"=>"", "english_name"=>""}, "4"=>{"sanskrit_name"=>"", "english_name"=>""}, "5"=>{"sanskrit_name"=>"", "english_name"=>""}, "6"=>{"sanskrit_name"=>"", "english_name"=>""}, "7"=>{"sanskrit_name"=>"", "english_name"=>""}, "8"=>{"sanskrit_name"=>"", "english_name"=>""}, "9"=>{"sanskrit_name"=>"", "english_name"=>""}}, "repititions"=>"5"}, "commit"=>"Create Sequence"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSequence Exists (0.1ms)[0m  SELECT  1 AS one FROM "sequences" WHERE "sequences"."title" = 'qwerasdfzxcv' LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "sequences" ("title", "difficulty", "repititions", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "qwerasdfzxcv"], ["difficulty", 5], ["repititions", 5], ["created_at", "2016-12-27 16:47:14.933724"], ["updated_at", "2016-12-27 16:47:14.933724"]]
+  [1m[35m (2.8ms)[0m  commit transaction
+  [1m[36mSequence Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "sequences" WHERE ("sequences"."title" = 'qwerasdfzxcv' AND "sequences"."id" != 38) LIMIT 1[0m
+  [1m[35mPose Load (0.3ms)[0m  SELECT  "poses".* FROM "poses" WHERE "poses"."id" = ? LIMIT 1  [["id", 22]]
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT  "poses".* FROM "poses" WHERE "poses"."id" = ? LIMIT 1[0m  [["id", 14]]
+  [1m[35mPose Load (0.3ms)[0m  SELECT  "poses".* FROM "poses" WHERE "poses"."sanskrit_name" = ? AND "poses"."english_name" = ? LIMIT 1  [["sanskrit_name", "mmmmm"], ["english_name", "nnnn"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "poses" ("sanskrit_name", "english_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["sanskrit_name", "mmmmm"], ["english_name", "nnnn"], ["created_at", "2016-12-27 16:47:14.948656"], ["updated_at", "2016-12-27 16:47:14.948656"]]
+  [1m[36m (3.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mPose Load (0.2ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 38]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "sequence_poses" ("sequence_id", "pose_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["sequence_id", 38], ["pose_id", 22], ["created_at", "2016-12-27 16:47:40.446537"], ["updated_at", "2016-12-27 16:47:40.446537"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "sequence_poses" ("sequence_id", "pose_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["sequence_id", 38], ["pose_id", 14], ["created_at", "2016-12-27 16:47:40.449058"], ["updated_at", "2016-12-27 16:47:40.449058"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "sequence_poses" ("sequence_id", "pose_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["sequence_id", 38], ["pose_id", 23], ["created_at", "2016-12-27 16:47:40.451026"], ["updated_at", "2016-12-27 16:47:40.451026"]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 59723ms (ActiveRecord: 11.5ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 09:48:14 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (1.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (5.5ms)
+  Rendered sequence/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 55ms (Views: 45.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 09:48:18 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mSequence Load (0.5ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (4268.2ms)
+Completed 200 OK in 4291ms (Views: 4287.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 09:48:25 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 38]]
+  [1m[36mPose Load (0.5ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 38]]
+  [1m[35mPose Load (0.3ms)[0m  SELECT "poses".* FROM "poses"
+  Rendered sequence/show.html.erb within layouts/application (75746.9ms)
+Completed 200 OK in 75784ms (Views: 75781.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 09:49:41 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 38]]
+  [1m[35mPose Load (0.2ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 38]]
+  [1m[36mPose Load (0.4ms)[0m  [1mSELECT "poses".* FROM "poses"[0m
+  Rendered sequence/show.html.erb within layouts/application (62.6ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x007fa7bd77e018>:0x007fa7bc771f80>
+Did you mean?  pose):
+     9: 
+    10:   <div id="sequencePoses">
+    11:     <% @sequence.poses.each do |pose| %>
+    12:       <%= post.sanskrit_name %> - <%= pose.english_name %>
+    13:     <% end %>
+    14:   </div>
+    15: </div>
+  app/views/sequence/show.html.erb:12:in `block in _app_views_sequence_show_html_erb__839735056717673558_70179199092180'
+  app/views/sequence/show.html.erb:11:in `_app_views_sequence_show_html_erb__839735056717673558_70179199092180'
+
+
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (62.5ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.6ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/traci/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (102.7ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 09:49:48 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 38]]
+  [1m[36mPose Load (0.5ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 09:50:10 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mSequence Load (0.2ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 38]]
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 10:02:27 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mSequence Load (0.7ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 38]]
+  [1m[36mPose Load (0.8ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 57ms (Views: 49.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 10:02:29 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mSequence Load (0.2ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 38]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 10:02:42 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mSequence Load (0.2ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 38]]
+  [1m[36mPose Load (0.2ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 10:03:18 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 38]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 71ms (Views: 68.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pose.self-eafedd5568544a9ab006d3c26cdf74df16368707f1cb397ceb2eb5f724a57f32.css?body=1" for ::1 at 2016-12-27 10:03:18 -0700
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 10:05:45 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 38]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 46ms (Views: 44.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 10:05:55 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 38]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 10:06:19 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 38]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 10:07:02 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.6ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (2.2ms)
+  Rendered sequence/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/26" for ::1 at 2016-12-27 10:07:04 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 26]]
+  [1m[35mPose Load (0.4ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 26]]
+  Rendered sequence/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sequence/26" for ::1 at 2016-12-27 10:07:52 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 26]]
+  [1m[35mPose Load (0.2ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 26]]
+  Rendered sequence/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 32ms (Views: 30.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 10:08:07 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (2.6ms)
+  Rendered sequence/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 10:17:23 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (1.2ms)
+  [1m[35mSequence Load (0.6ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (5.1ms)
+  Rendered sequence/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 76ms (Views: 66.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sequence/28" for ::1 at 2016-12-27 10:17:25 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35mPose Load (0.1ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 28]]
+  Rendered sequence/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 10:17:26 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.8ms)
+  Rendered sequence/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 49ms (Views: 48.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 10:23:02 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (1.0ms)
+  [1m[35mSequence Load (0.5ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (4.7ms)
+  Rendered sequence/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 126ms (Views: 123.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/script.self-d1acc251967ae40ef5ad012497210b6a33b62ed863204a6e1df45b46ed0d6b80.js?body=1" for ::1 at 2016-12-27 10:23:02 -0700
+
+
+Started GET "/sequence/28" for ::1 at 2016-12-27 10:23:04 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35mPose Load (0.1ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 28]]
+  Rendered sequence/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 65ms (Views: 63.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 10:23:05 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[36mSequence Load (0.3ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (2.6ms)
+  Rendered sequence/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 10:23:37 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (3.2ms)
+  Rendered sequence/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-27 10:23:41 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 38]]
+  [1m[35mPose Load (0.2ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 10:23:44 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.6ms)
+  Rendered sequence/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 10:25:57 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.5ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.7ms)
+  Rendered sequence/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 88ms (Views: 86.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/script.self-ed9d5c355efded9b0b3cfc5c708da9a156f86c11cb2a1dfeedcd73ff8042a439.js?body=1" for ::1 at 2016-12-27 10:25:57 -0700
+
+
+Started GET "/" for ::1 at 2016-12-27 10:26:31 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[36mSequence Load (0.3ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.6ms)
+  Rendered sequence/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 108ms (Views: 107.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-7ad6496731a13c714fdeaed216bec0654610434476ba4a541e9abe6629b6585f.js?body=1" for ::1 at 2016-12-27 10:26:31 -0700
+
+
+Started GET "/" for ::1 at 2016-12-27 10:26:38 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[35mSequence Load (0.3ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.2ms)
+  Rendered sequence/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-f7c783297ff7c7a10de8e37660526c5fd5e9c25cc763d56de56daed494280fd2.js?body=1" for ::1 at 2016-12-27 10:26:38 -0700
+
+
+Started GET "/" for ::1 at 2016-12-27 10:26:48 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.3ms)
+  Rendered sequence/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 88ms (Views: 87.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/script.self-2de7d1ba552670f9ebdf7ae7253bc68d493d3894b7e2d1834f2cf8dc0675d986.js?body=1" for ::1 at 2016-12-27 10:26:48 -0700
+
+
+Started GET "/sequence/29" for ::1 at 2016-12-27 10:26:50 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 29]]
+  Rendered sequence/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-27 10:26:52 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.6ms)
+  [1m[35mSequence Load (0.7ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.9ms)
+  Rendered sequence/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:44:42 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.5ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (4.6ms)
+  Rendered sequence/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 319ms (Views: 303.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/pose.self-eafedd5568544a9ab006d3c26cdf74df16368707f1cb397ceb2eb5f724a57f32.css?body=1" for ::1 at 2016-12-29 16:44:42 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-12-29 16:44:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-29 16:44:42 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-29 16:44:42 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-12-29 16:44:42 -0700
+
+
+Started GET "/assets/sequence.self-f7e1d2ffc406f9606ec52d918d46dae1c13902e0c4d6a6214caba79722dfbb67.css?body=1" for ::1 at 2016-12-29 16:44:42 -0700
+
+
+Started GET "/assets/pose.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-29 16:44:42 -0700
+
+
+Started GET "/assets/script.self-2de7d1ba552670f9ebdf7ae7253bc68d493d3894b7e2d1834f2cf8dc0675d986.js?body=1" for ::1 at 2016-12-29 16:44:42 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-12-29 16:44:42 -0700
+
+
+Started GET "/assets/sequence.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-29 16:44:42 -0700
+
+
+Started GET "/sequence/30" for ::1 at 2016-12-29 16:44:46 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 30]]
+  [1m[35mPose Load (0.2ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 30]]
+  Rendered sequence/show.html.erb within layouts/application (50.5ms)
+Completed 200 OK in 84ms (Views: 70.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:44:47 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.1ms)
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.0ms)
+  Rendered sequence/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:51:37 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.1ms)
+  [1m[35mSequence Load (0.3ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.2ms)
+  Rendered sequence/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/script.self-9b738aa16297564c42822769b313853bc946a006d8b3dd15788fe4cd8303a6b4.js?body=1" for ::1 at 2016-12-29 16:51:37 -0700
+
+
+Started GET "/sequence/29" for ::1 at 2016-12-29 16:51:39 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 29]]
+  [1m[35mPose Load (0.1ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 29]]
+  Rendered sequence/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/29" for ::1 at 2016-12-29 16:52:07 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 29]]
+  [1m[35mPose Load (0.1ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 29]]
+  Rendered sequence/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 64ms (Views: 63.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:52:07 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.0ms)
+  Rendered sequence/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/script.self-9c581e434f026826ec72aae08e7c4fea49ced454e302ce6f64d19abde680ab96.js?body=1" for ::1 at 2016-12-29 16:52:07 -0700
+
+
+Started GET "/" for ::1 at 2016-12-29 16:52:12 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.0ms)
+  Rendered sequence/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:52:13 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.0ms)
+  Rendered sequence/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/33" for ::1 at 2016-12-29 16:52:43 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 33]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 33]]
+  Rendered sequence/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:53:02 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.1ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (0.9ms)
+  Rendered sequence/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:53:46 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.2ms)
+  Rendered sequence/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/32" for ::1 at 2016-12-29 16:53:49 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 32]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 32]]
+  Rendered sequence/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:54:29 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.1ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.1ms)
+  Rendered sequence/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/32" for ::1 at 2016-12-29 16:55:40 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 32]]
+  [1m[35mPose Load (0.1ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 32]]
+  Rendered sequence/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/32" for ::1 at 2016-12-29 16:56:26 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1[0m  [["id", 32]]
+  [1m[35mPose Load (0.1ms)[0m  SELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?  [["sequence_id", 32]]
+  Rendered sequence/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:26 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.0ms)
+  Rendered sequence/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/script.self-0e26ddfc9d05d82abc414358613b1ee567786a0b09ead92d43bb53e2f2c91389.js?body=1" for ::1 at 2016-12-29 16:56:26 -0700
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:27 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.0ms)
+  Rendered sequence/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:27 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.1ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.1ms)
+  Rendered sequence/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/30" for ::1 at 2016-12-29 16:56:29 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 30]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 30]]
+  Rendered sequence/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:31 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (0.9ms)
+  Rendered sequence/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:31 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.1ms)
+  Rendered sequence/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/34" for ::1 at 2016-12-29 16:56:33 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"34"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 34]]
+  [1m[36mPose Load (0.0ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 34]]
+  Rendered sequence/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:34 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.1ms)
+  Rendered sequence/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:34 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.0ms)
+  Rendered sequence/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/30" for ::1 at 2016-12-29 16:56:36 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 30]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 30]]
+  Rendered sequence/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:37 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.3ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.2ms)
+  Rendered sequence/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:37 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.1ms)
+  Rendered sequence/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/30" for ::1 at 2016-12-29 16:56:53 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 30]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 30]]
+  Rendered sequence/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:56 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.0ms)
+  Rendered sequence/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:56 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.2ms)
+  Rendered sequence/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/31" for ::1 at 2016-12-29 16:56:58 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 31]]
+  [1m[36mPose Load (0.0ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 31]]
+  Rendered sequence/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:59 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.1ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (0.9ms)
+  Rendered sequence/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 19ms (Views: 18.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:56:59 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.3ms)
+  Rendered sequence/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/36" for ::1 at 2016-12-29 16:57:01 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 36]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 36]]
+  Rendered sequence/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.1ms)

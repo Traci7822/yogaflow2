@@ -10,7 +10,21 @@ $(document).ready(function() {
   //   }
     //add another 5 pose selectors
   // })
+
+  $('body').on('change', '#sequence_options', function() {
+    window.location = window.location + "sequence/" + this.value
+  })
+
+  $("#go-back").on('click', function() {
+    window.location = "http://localhost:3000"
+  })
+  // $('#sequence_options').change(function() {
+  //   window.location = window.location + "sequence/" + this.value
+  // })
+
 });
+
+
 
 function setValue(poseNumber) {
   for (var i = 0; i < $('.poseBuilder').length; i++) {

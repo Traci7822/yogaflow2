@@ -33,6 +33,7 @@ class Sequence < ActiveRecord::Base
         end
       end
     end
+    self.poses = @sequence_poses_array
   end
 
   def create_new_pose(pose_names, sequence, index)
