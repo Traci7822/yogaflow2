@@ -17581,3 +17581,113 @@ Processing by SequenceController#index as HTML
   Rendered layouts/_sequenceHeader.html.erb (1.3ms)
   Rendered sequence/index.html.erb within layouts/application (3.6ms)
 Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/37" for ::1 at 2016-12-29 16:57:51 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"37"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 37]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 37]]
+  Rendered sequence/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/script.self-f83ac78a5826fdd0a398a6fe0bfcb5496364839e0ff6ce41a825cffd55beb988.js?body=1" for ::1 at 2016-12-29 16:57:51 -0700
+
+
+Started GET "/" for ::1 at 2016-12-29 16:57:52 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.1ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.1ms)
+  Rendered sequence/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:57:53 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.2ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.4ms)
+  Rendered sequence/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sequence/38" for ::1 at 2016-12-29 16:57:55 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 38]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 38]]
+  Rendered sequence/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:58:01 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.2ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (1.1ms)
+  Rendered sequence/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 23ms (Views: 17.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:58:01 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.1ms)
+  [1m[36mSequence Load (0.3ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.6ms)
+  Rendered sequence/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sequence/33" for ::1 at 2016-12-29 16:59:27 -0700
+Processing by SequenceController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[35mSequence Load (0.1ms)[0m  SELECT  "sequences".* FROM "sequences" WHERE "sequences"."id" = ? LIMIT 1  [["id", 33]]
+  [1m[36mPose Load (0.1ms)[0m  [1mSELECT "poses".* FROM "poses" INNER JOIN "sequence_poses" ON "poses"."id" = "sequence_poses"."pose_id" WHERE "sequence_poses"."sequence_id" = ?[0m  [["sequence_id", 33]]
+  Rendered sequence/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:59:28 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[35mSequence Load (0.1ms)[0m  SELECT "sequences".* FROM "sequences"
+  Rendered layouts/_sequenceHeader.html.erb (0.9ms)
+  Rendered sequence/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-29 16:59:28 -0700
+Processing by SequenceController#index as HTML
+  Rendered layouts/_navBar.html.erb (0.2ms)
+  [1m[36mSequence Load (0.1ms)[0m  [1mSELECT "sequences".* FROM "sequences"[0m
+  Rendered layouts/_sequenceHeader.html.erb (1.0ms)
+  Rendered sequence/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sequence/new" for ::1 at 2016-12-29 16:59:30 -0700
+Processing by SequenceController#new as HTML
+  [1m[35mPose Load (0.2ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (4.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (2.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (1.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (1.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (1.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (1.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (1.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (1.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT DISTINCT "poses".* FROM "poses"
+  Rendered layouts/_poseBuilder.html.erb (1.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT DISTINCT "poses".* FROM "poses"[0m
+  Rendered layouts/_poseBuilder.html.erb (1.7ms)
+  Rendered sequence/new.html.erb within layouts/application (44.8ms)
+Completed 200 OK in 61ms (Views: 56.2ms | ActiveRecord: 0.3ms)
