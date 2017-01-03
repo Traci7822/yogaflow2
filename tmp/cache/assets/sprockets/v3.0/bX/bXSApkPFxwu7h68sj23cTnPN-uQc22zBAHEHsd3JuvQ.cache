@@ -1,0 +1,37 @@
+I"^(function() {
+  jQuery(function() {
+    return $.ajax({
+      url: window.location.protocol + "//connect.facebook.net/en_US/all.js",
+      dataType: 'script',
+      cache: true
+    });
+  });
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: '<%= ENV["FACEBOOK_KEY"] %>',
+      cookie: true,
+      status: true,
+      xfbml: true
+    });
+    $('#sign_in').click(function(e) {
+      e.preventDefault();
+      return FB.login(function(response) {
+        if (response.authResponse) {
+          return window.location = '/auth/facebook/callback';
+        }
+      });
+    });
+    $('#sign_out').click(function(e) {
+      FB.getLoginStatus(function(response) {
+        if (response.authResponse) {
+          return FB.logout();
+        }
+      });
+      return true;
+    });
+    return $('body').prepend('<div id="fb-root"></div>');
+  };
+
+}).call(this);
+:ET
