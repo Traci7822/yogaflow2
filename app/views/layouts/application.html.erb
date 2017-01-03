@@ -13,6 +13,10 @@
     Welcome <%= current_user.name %>!
     <%= link_to "Sign out", signout_path, id: "sign_out" %>
   <% else %>
+    <%= link_to "Sign up for a YogaFlow account", sign_up_path %>
+    <br>
+    <%= link_to "Log in to your YogaFlow account", log_in_path %>
+    <br>
     <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
   <% end %>
 </div>
