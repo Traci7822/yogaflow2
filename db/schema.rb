@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161230000230) do
+ActiveRecord::Schema.define(version: 20170103174533) do
 
   create_table "poses", force: :cascade do |t|
     t.string   "sanskrit_name"
@@ -43,6 +43,8 @@ ActiveRecord::Schema.define(version: 20161230000230) do
     t.datetime "oauth_expires_at"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
+    t.string   "username"
+    t.string   "password_digest"
   end
 
 end
