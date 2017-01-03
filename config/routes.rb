@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   resources :sequence, only: [:new, :create, :show]
   resources :pose, only: [:new, :create]
-  resources :users, only: [:new, :index]
+  resources :users, only: [:new, :index, :create]
   resources :sessions, only: [:new]
 
   match 'auth/:provider', to: 'sessions#create', via: [:get, :post]
