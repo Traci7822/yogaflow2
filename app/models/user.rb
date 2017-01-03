@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
   def self.from_omniauth(auth)
-    where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
+    where(provider: auth.provider, uid: auth.uid).first_or_create.tap do |user|
       user.provider = auth.provider
       user.uid = auth.uid
       user.name = auth.info.name
@@ -9,4 +9,10 @@ class User < ActiveRecord::Base
       user.save!
     end
   end
+
+  # private
+  #
+  # def auth_params
+  #   params.require(:auth).permit!
+  # end
 end
