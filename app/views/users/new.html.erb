@@ -15,13 +15,23 @@
       </div>
     <% end %>
     <div>
-      <%= f.label :username %><br />
-      <%= f.text_field :username %><br />
+      <%= f.label :username, "Create a Username" %><br />
+      <%= f.text_field :username %><br /><br />
+    </div>
+
+    <div>
+      <%= f.label :email %><br />
+      <%= f.text_field :email %><br /><br />
     </div>
 
     <div>
       <%= f.label :password %><br />
       <%= f.password_field :password %><br /><br />
+    </div>
+
+    <div>
+      <%= f.label :password_confirmation %><br />
+      <%= f.password_field :password_confirmation %><br /><br />
     </div>
     <%= f.submit %>
   <% end %>
