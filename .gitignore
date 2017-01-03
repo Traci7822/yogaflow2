@@ -38,4 +38,4 @@ Thumbs.db
 
 # secrets
 ############
-*.yml
+config/secrets.yml
