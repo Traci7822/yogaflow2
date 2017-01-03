@@ -10,6 +10,12 @@ $(document).ready(function() {
   //   }
     //add another 5 pose selectors
   // })
+  if (window.location.hash && window.location.hash == '#_=_') {
+    window.location.hash = '';
+    document.location.href = String( document.location.href ).replace( /#/, "" );
+
+  }
+
 
   $('body').on('change', '#sequence_options', function() {
     window.location = window.location + "sequence/" + this.value

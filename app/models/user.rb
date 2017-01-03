@@ -15,9 +15,4 @@ class User < ActiveRecord::Base
     end
   end
 
-  # private
-  #
-  # def auth_params
-  #   params.require(:auth).permit!
-  # end
 end
