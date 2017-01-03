@@ -1,0 +1,29 @@
+<div class="logIn">
+    <div id="header">
+      <h1>Log in to your YogaFlow account!</h1>
+    </div>
+    <div id="logInForm">
+      <%= form_tag sessions_path do %>
+        <% if @user.errors.any? %>
+          <div class="error_explanation">
+            <h2>There were some errors:</h2>
+            <ul>
+              <% @user.errors.full_messages.each do |message| %>
+              <li><%= message %></li>
+              <% end %>
+            </ul>
+          </div>
+        <% end %>
+        <div>
+          <h3 class="formUsername"><%= label_tag :username %><br /></h3>
+          <%= text_field_tag :username %><br />
+        </div>
+
+        <div>
+          <h3 class="formPasswrod"><%= label_tag :password %><br /></h3>
+          <%= password_field_tag :password %><br />
+          <%= submit_tag "Log In" %>
+        </div>
+        <% end %>
+    </div>
+  </div>
