@@ -12,8 +12,7 @@ $(document).ready(function() {
   // })
   if (window.location.hash && window.location.hash == '#_=_') {
     window.location.hash = '';
-    document.location.href = String( document.location.href ).replace( /#/, "" );
-
+    // document.location.href = String( document.location.href ).replace( /#/, "" );
   }
 
 
