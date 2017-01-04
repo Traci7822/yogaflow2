@@ -5,6 +5,7 @@ class Sequence < ActiveRecord::Base
   validates :difficulty, presence: true
   validates_inclusion_of :difficulty, :in => 1..5
   validates :repititions, presence: true
+  validates_inclusion_of :repititions, :in => 1..10
 
   def poses_attributes=(poses_attributes)
     poses_attributes.each do |i, pose_attributes|

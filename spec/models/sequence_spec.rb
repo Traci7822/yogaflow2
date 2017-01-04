@@ -28,9 +28,22 @@ describe Sequence do
         sequence = Sequence.create(title: 'NewYogaSequence', difficulty: nil, repititions: 2)
         expect(sequence).to be_invalid
       end
-      it "is has a difficulty level between 1 and 5" do
+      it "has a difficulty level between 1 and 5" do
         sequence1 = Sequence.create(title: 'NewYogaSequence', difficulty: 0, repititions: 2)
         sequence2 = Sequence.create(title: 'NewYogaSequence', difficulty: 10, repititions: 2)
+        expect(sequence2).to be_invalid
+        expect(sequence2).to be_invalid
+      end
+    end
+
+    describe "assigns repititions" do
+      it "is not blank" do
+        sequence = Sequence.create(title: 'NewYogaSequence', difficulty: 3, repititions: nil)
+        expect(sequence).to be_invalid
+      end
+      it "has between 1 and 10 repititions" do
+        sequence1 = Sequence.create(title: 'NewYogaSequence', difficulty: 3, repititions: 0)
+        sequence2 = Sequence.create(title: 'NewYogaSequence', difficulty: 3, repititions: 20)
         expect(sequence2).to be_invalid
         expect(sequence2).to be_invalid
       end
