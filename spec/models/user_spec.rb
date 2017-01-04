@@ -14,7 +14,6 @@ describe User do
       end
       it "is unique" do
         user = User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woofwoof')
-        expect(user).to be_valid
         expect(user.dup).to be_invalid
       end
     end
@@ -32,7 +31,6 @@ describe User do
       end
       it "is unique" do
         user = User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woofwoof')
-        expect(user).to be_valid
         expect(user.dup).to be_invalid
       end
     end

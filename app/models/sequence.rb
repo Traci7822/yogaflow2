@@ -19,6 +19,7 @@ class Sequence < ActiveRecord::Base
   def set_sequence_poses(params)
     sequence_poses_array = []
     params[:pose_ids].each_with_index do |pose_id, i|
+
       if !pose_id.empty?
         if new_pose?(pose_id)
           new_pose_names = params[:poses_attributes].values[i]
@@ -28,6 +29,8 @@ class Sequence < ActiveRecord::Base
         else
           add_existing_pose(pose_id, sequence_poses_array, i)
         end
+      else
+        sequence_poses_array[i] = ""
       end
     end
     self.poses = sequence_poses_array
