@@ -5,37 +5,46 @@ describe User do
 
     describe "signs up with a valid username" do
       it "is not blank" do
-        User.create(username: nil, email: 'Bob@BobTheDog.com', password: 'woofwoof').should_not be_valid
+        user = User.create(username: nil, email: 'Bob@BobTheDog.com', password: 'woofwoof')
+        expect(user).to be_invalid
       end
       it "is long enough" do
-        User.create(username: 'Bob', email: 'Bob@BobTheDog.com', password: 'woofwoof').should_not be_valid
+        user = User.create(username: 'Bob', email: 'Bob@BobTheDog.com', password: 'woofwoof')
+        expect(user).to be_invalid
       end
       it "is unique" do
-        User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woofwoof').should be_valid
-        User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woofwoof').should_not be_valid
+        user = User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woofwoof')
+        expect(user).to be_valid
+        expect(user.dup).to be_invalid
       end
     end
 
     describe "signs up with a valid email" do
       it "is not blank" do
-        User.create(username: 'BobTheDog', email: nil, password: 'woofwoof').should_not be_valid
+        user = User.create(username: 'BobTheDog', email: nil, password: 'woofwoof')
+        expect(user).to be_invalid
       end
       it "is a valid email address" do
-        User.create(username: 'BobTheDog', email: 'Bob_at_BobTheDog.com', password: 'woofwoof').should_not be_valid
-        User.create(username: 'BobTheDog', email: 'Bob@BobTheDog,com', password: 'woofwoof').should_not be_valid
+        user1 = User.create(username: 'BobTheDog', email: 'Bob_at_BobTheDog.com', password: 'woofwoof')
+        user2 = User.create(username: 'BobTheDog', email: 'Bob@BobTheDog,com', password: 'woofwoof')
+        expect(user1).to be_invalid
+        expect(user2).to be_invalid
       end
       it "is unique" do
-        User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woofwoof').should be_valid
-        User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woofwoof').should_not be_valid
+        user = User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woofwoof')
+        expect(user).to be_valid
+        expect(user.dup).to be_invalid
       end
     end
 
     describe "signs up with a valid password" do
       it "is not blank" do
-        User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: nil).should_not be_valid
+        user = User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: nil)
+        expect(user.dup).to be_invalid
       end
       it "is long enough" do
-        User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woof').should_not be_valid
+        user = User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woof')
+        expect(user.dup).to be_invalid
       end
     end
   end
