@@ -29,5 +29,14 @@ describe User do
         User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woofwoof').should_not be_valid
       end
     end
+
+    describe "signs up with a valid password" do
+      it "is not blank" do
+        User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: nil).should_not be_valid
+      end
+      it "is long enough" do
+        User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woof').should_not be_valid
+      end
+    end
   end
 end
