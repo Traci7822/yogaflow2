@@ -16,5 +16,9 @@
   <div id="newSequenceLink">
     <%= link_to "Create a new sequence", new_sequence_path, class: 'linkText'  %>
   </div>
-</div>
+<% else %>
+    <div id="directions">
+      <h4>* Sign up or log in to create or edit a sequence *</h4>
+    </div>
 <% end %>
+</div>
