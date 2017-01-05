@@ -2,7 +2,7 @@ YogaFlow
 ============
 This is a Ruby on Rails/JavaScript application that provides an evironment to create and view yoga
 
-(http://i.imgur.com/yCrEqRs.png)
+http://i.imgur.com/yCrEqRs.png
 
 ## Setup
 
@@ -21,6 +21,7 @@ To create sequences, choose a sign-up/log-in option and follow the prompts.
 ---
 
 ## License
->You can check out the full license [here](https://github.com/Traci7822/yogaflow2/blob/master/LICENSE.md)
+
+You can check out the full license here: https://github.com/Traci7822/yogaflow2/blob/master/LICENSE.md
 
 This project is licensed under the terms of the **MIT** license.
