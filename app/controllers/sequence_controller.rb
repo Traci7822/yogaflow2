@@ -4,9 +4,13 @@ class SequenceController < ApplicationController
   end
 
   def new
-    @sequence = Sequence.new
-    @sequence.poses.build
-    @sequences = Sequence.all
+    if current_user
+      @sequence = Sequence.new
+      @sequence.poses.build
+      @sequences = Sequence.all
+    else
+      redirect_to root_path
+    end
   end
 
   def create
