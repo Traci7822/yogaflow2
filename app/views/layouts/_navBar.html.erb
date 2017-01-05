@@ -1,7 +1,7 @@
 <div class="navBar">
   <div id ="user_widget">
     <% if current_user %>
-      Welcome <%= current_user.username || current_user.name %>!
+      <h4 id="welcome">Welcome <%= current_user.username || current_user.name %>!</h4>
       <%= link_to "Sign out", signout_path, id: "sign_out" %>
     <% else %>
       <%= link_to "Sign up for a YogaFlow account", new_user_path %>

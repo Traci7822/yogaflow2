@@ -1,3 +1,19 @@
 // Place all the styles related to the User controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.signUpHeader {
+  text-align: center;
+}
+
+.createUserForm {
+  text-align: center;
+  margin-top: 45%;
+  margin-left: 20px;
+  margin-right: auto;
+  color: #E76D1F;
+  font-size: 1.2em;
+}
+
+.create_user_button {
+  font-size: 1.5em;
+}

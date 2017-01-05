@@ -6,6 +6,7 @@ class SequenceController < ApplicationController
   def new
     @sequence = Sequence.new
     @sequence.poses.build
+    @sequences = Sequence.all
   end
 
   def create
