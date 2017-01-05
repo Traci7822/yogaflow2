@@ -2,6 +2,10 @@ require 'rails_helper'
 
 
 describe Sequence do
+
+  it {should have_many(:sequence_poses)}
+  it {should have_many(:poses)}
+
   context "creates a new sequence" do
 
     describe "assigns a valid title" do
@@ -22,6 +26,11 @@ describe Sequence do
 
       it "isn't too long" do
         sequence = Sequence.create(title: 'NewYogaSequence123456789012345678901234567890', difficulty: 3, repititions: 2)
+        expect(sequence).to be_invalid
+      end
+
+      it "only has letters and spaces" do
+        sequence = Sequence.create(title: '%^&123', difficulty: 3, repititions: 2)
         expect(sequence).to be_invalid
       end
 

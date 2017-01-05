@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 describe User do
+
   context "signs up for an account" do
 
     describe "signs up with a valid username" do
@@ -54,7 +55,7 @@ describe User do
         user = User.create(username: 'BobTheDog', email: 'Bob@BobTheDog.com', password: 'woof')
         expect(user.dup).to be_invalid
       end
-      
+
     end
   end
 end

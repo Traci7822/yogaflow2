@@ -1,6 +1,10 @@
 require 'rails_helper'
 
 describe Pose do
+
+  it {should have_many(:sequence_poses)}
+  it {should have_many(:sequences)}
+
   context "creates a new pose" do
 
     describe "has a valid sanskrit name" do
