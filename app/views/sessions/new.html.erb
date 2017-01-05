@@ -1,8 +1,8 @@
 <div class="logIn">
-    <div id="header">
+    <div class="signUpHeader">
       <h1>Log in to your YogaFlow account!</h1>
     </div>
-    <div id="logInForm">
+    <div class="logInForm">
       <%= form_tag sessions_path do %>
         <% if @user.errors.any? %>
           <div class="error_explanation">
@@ -22,7 +22,7 @@
         <div>
           <h3 class="formPasswrod"><%= label_tag :password %><br /></h3>
           <%= password_field_tag :password %><br />
-          <%= submit_tag "Log In" %>
+          <%= submit_tag "Log In", :class => 'log_in_button' %>
         </div>
         <% end %>
     </div>
