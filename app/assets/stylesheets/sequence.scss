@@ -87,6 +87,7 @@ a:active {
   width: 30%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
   padding: 10px;
   font-weight: bold;
   border: 10px solid gray;
@@ -94,4 +95,16 @@ a:active {
 
 .newSequencePoses {
   padding: 10px;
+}
+
+#sequencePoses {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 10px;
+  font-weight: bold;
+  border: 10px solid gray;
 }
