@@ -1,5 +1,8 @@
 <div class="signUpHeader">
   <h1>Sign up for a YogaFlow account!</h1>
+  <div class="returnToIndex">
+    <%= link_to "Go Back", root_path, id: "go-back" %>
+  </div>
 </div>
 
 <div class="createUserForm">
@@ -15,25 +18,26 @@
       </div>
     <% end %>
     <div>
-      <%= f.label :username, "Create a Username" %><br />
+      <%= f.label :username, "Create a Username" %><br /><br />
       <%= f.text_field :username %><br /><br />
     </div>
 
     <div>
-      <%= f.label :email %><br />
+      <%= f.label :email %><br /><br />
       <%= f.text_field :email %><br /><br />
     </div>
 
     <div>
-      <%= f.label :password %><br />
+      <%= f.label :password %><br /><br />
       <%= f.password_field :password %><br /><br />
     </div>
 
     <div>
-      <%= f.label :password_confirmation %><br />
+      <%= f.label :password_confirmation %><br /><br />
       <%= f.password_field :password_confirmation %><br /><br />
     </div>
-    <%= f.submit %>
+
+    <%= f.submit 'Create User', :class => 'create_user_button'%>
   <% end %>
 
 </div>

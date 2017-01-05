@@ -1,5 +1,24 @@
 <div class="navBar">
+  <div id ="user_widget">
+    <% if current_user %>
+      <h4 id="welcome">Welcome <%= current_user.username || current_user.name %>!</h4>
+      <%= link_to "Sign out", signout_path, id: "sign_out" %>
+    <% else %>
+      <%= link_to "Sign up for a YogaFlow account", new_user_path %>
+      <br>
+      <%= link_to "Log in to your YogaFlow account", new_session_path %>
+      <br>
+      <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
+    <% end %>
+  </div>
+
+<% if current_user %>
   <div id="newSequenceLink">
     <%= link_to "Create a new sequence", new_sequence_path, class: 'linkText'  %>
   </div>
+<% else %>
+    <div id="directions">
+      <h4>* Sign up or log in to create or edit a sequence *</h4>
+    </div>
+<% end %>
 </div>

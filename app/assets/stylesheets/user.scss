@@ -1,3 +1,41 @@
 // Place all the styles related to the User controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.signUpHeader {
+  margin-top: 60px;
+  text-align: center;
+  color: #FDC72E;
+}
+
+.createUserForm  {
+  text-align: center;
+  margin-top: 28%;
+  margin-left: 20px;
+  margin-right: auto;
+  color: #E76D1F;
+  font-size: 1em;
+  position: relative;
+}
+
+.create_user_button {
+  font-size: 1.5em;
+}
+
+.returnToIndex a:visited {
+  color: white;
+}
+
+.logInForm {
+  text-align: center;
+  margin-top: 28%;
+  margin-left: 20px;
+  margin-right: auto;
+  color: #E76D1F;
+  font-size: 1em;
+  position: relative;
+}
+
+.log_in_button {
+  margin-top: 20px;
+  font-size: 1.5em;
+}

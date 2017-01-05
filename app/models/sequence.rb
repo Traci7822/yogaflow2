@@ -1,12 +1,21 @@
 class Sequence < ActiveRecord::Base
   has_many :sequence_poses
-  has_many :poses, through: :sequence_poses
-  validates :title, presence: true, uniqueness: true, length: {minimum: 5, maximum: 30}
-  validates_format_of :title, :with => /^[a-zA-Z\s]*$/, :multiline => true
-  validates :difficulty, presence: true
-  validates_inclusion_of :difficulty, :in => 1..5
-  validates :repititions, presence: true
-  validates_inclusion_of :repititions, :in => 1..10
+  has_many :poses,
+    through: :sequence_poses
+  validates :title,
+    presence: true,
+    uniqueness: true,
+    length: {minimum: 5, maximum: 30}
+  validates_format_of :title,
+    :with => /^[a-zA-Z\s]*$/, :multiline => true
+  validates :difficulty,
+    presence: true
+  validates_inclusion_of :difficulty,
+    :in => 1..5
+  validates :repititions,
+    presence: true
+  validates_inclusion_of :repititions,
+    :in => 1..10
 
   def poses_attributes=(poses_attributes)
     poses_attributes.each do |i, pose_attributes|

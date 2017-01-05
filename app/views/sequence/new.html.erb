@@ -1,5 +1,10 @@
 <div class="newSequence">
-  <h1>Create a new yoga sequence</h1>
+  <div id="newSequenceHeader">
+    <h1>Create a new yoga sequence</h1>
+    <div class="returnToIndex">
+      <%= link_to "Go Back", root_path, id: "go-back" %>
+    </div>
+  </div>
 
   <div id="newSequenceForm">
     <%= form_for(@sequence, url: sequence_index_path) do |f| %>

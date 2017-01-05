@@ -2,6 +2,10 @@
   <div id="sequenceTitle">
     <h1><%= @sequence.title %></h1>
   </div>
+  
+  <div class="returnToIndex">
+    <%= link_to "Go Back", root_path, id: "go-back" %>
+  </div>
 
   <div id="sequenceDifficulty">
     <h2>Sequence Difficulty: <%= @sequence.difficulty %></h2>
@@ -21,7 +25,5 @@
     <h4>Repeat this sequence <%= @sequence.repititions %> times</h4>
   </div>
 
-  <div class="returnToIndex">
-    <%= link_to "Go Back", root_path, id: "go-back" %>
-  </div>
+
 </div>
