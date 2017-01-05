@@ -1,7 +1,13 @@
 <div class="newSequencePoses">
   <%= f.fields_for :poses do |pose_builder| %>
       <%= f.label :add_a_pose_to_this_sequence %>
-      <%= select_tag 'sequence[pose_ids][]', "<option value='new'>Create a new pose</option>" + options_from_collection_for_select(@poses.uniq.sort_by {|pose| pose.sanskrit_name}, "id", "display_name", params[:id]), {:prompt => 'Select/Create a pose', :onchange => "setValue(#{i});"} %>
+      <%= select_tag 'sequence[pose_ids][]',
+        "<option value='new'>Create a new pose</option>" +
+        options_from_collection_for_select(
+          @poses.uniq.sort_by {|pose| pose.sanskrit_name},
+          "id", "display_name", params[:id]
+        ), 
+        {:prompt => 'Select/Create a pose', :onchange => "setValue(#{i});"} %>
       <% pose_number = i %>
       <div class="poseBuilder" id="poseBuilder-<%= i %>" >
         <%= pose_builder.label :sanskrit_name %>
