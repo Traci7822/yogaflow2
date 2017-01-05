@@ -1,5 +1,5 @@
-<span>
-  <h1>Select a yoga sequence:
+<span class="select_sequence">
+  <h1 id="select_menu">Select and view a yoga sequence:
     <h4>
       <%= select_tag :sequence_options, options_from_collection_for_select(@sequences, :id, :title) %>
     </h4>

@@ -10,3 +10,46 @@ body {
   background: url('yogabackground.jpg') repeat-x 50% 50% fixed;
   background-size: cover;
 }
+
+.select_sequence {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FDC72E;
+}
+
+#select_menu {
+  margin-top: 30px;
+}
+
+
+#newSequenceLink {
+  text-align: center;
+  font-size: 2em;
+  color: #FDC72E;
+  margin-top: 300px;
+}
+
+a:visited {
+  color: #B98821;
+  }
+
+a:link {
+  color: #B98821;
+}
+
+a:hover {
+  color: #A5280F;
+}
+
+a:active {
+  color: #A5280F;
+}
+
+#user_widget {
+  text-align: center;
+  margin-top: 500px;
+}
+
+.navBar {
+}

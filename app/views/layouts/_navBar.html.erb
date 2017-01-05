@@ -1,5 +1,18 @@
 <div class="navBar">
+  <div id ="user_widget">
+    <% if current_user %>
+      Welcome <%= current_user.username || current_user.name %>!
+      <%= link_to "Sign out", signout_path, id: "sign_out" %>
+    <% else %>
+      <%= link_to "Sign up for a YogaFlow account", new_user_path %>
+      <br>
+      <%= link_to "Log in to your YogaFlow account", new_session_path %>
+      <br>
+      <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
+    <% end %>
+  </div>
   <div id="newSequenceLink">
+    <!-- only show if user is logged in -->
     <%= link_to "Create a new sequence", new_sequence_path, class: 'linkText'  %>
   </div>
 </div>
