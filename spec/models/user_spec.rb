@@ -77,6 +77,25 @@ describe User do
 
   context "registered user" do
     describe "has correct permissions" do
+      before(:each) do
+        User.create(username: 'TestUser1', email: 'Test@test.com', password: 'Test1234')
+      end
+
+      before(:each) do
+        visit('/sessions/new')
+        fill_in('Username', :with => 'TestUser1')
+        fill_in('Password', :with => 'Test1234')
+        click_on('Log In')
+      end
+
+      it "can view create sequence link" do
+        expect(page).to have_content("Create a new sequence")
+      end
+
+      it "can view create sequence page" do
+        visit('/sequence/new')
+        expect(page).to have_content("Add a pose to this sequence")
+      end
     end
   end
 
