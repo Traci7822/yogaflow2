@@ -9,38 +9,47 @@ describe Sequence do
         sequence = Sequence.create(title: nil, difficulty: 3, repititions: 2)
         expect(sequence).to be_invalid
       end
+
       it "is unique" do
         sequence = Sequence.create(title: 'NewYogaSequence', difficulty: 3, repititions: 2)
         expect(sequence.dup).to be_invalid
       end
+
       it "is long enough" do
         sequence = Sequence.create(title: 'New', difficulty: 3, repititions: 2)
         expect(sequence).to be_invalid
       end
+
       it "isn't too long" do
         sequence = Sequence.create(title: 'NewYogaSequence123456789012345678901234567890', difficulty: 3, repititions: 2)
         expect(sequence).to be_invalid
       end
+
     end
 
     describe "assigns a difficulty" do
+
       it "is not blank" do
         sequence = Sequence.create(title: 'NewYogaSequence', difficulty: nil, repititions: 2)
         expect(sequence).to be_invalid
       end
+
       it "has a difficulty level between 1 and 5" do
         sequence1 = Sequence.create(title: 'NewYogaSequence', difficulty: 0, repititions: 2)
         sequence2 = Sequence.create(title: 'NewYogaSequence', difficulty: 10, repititions: 2)
         expect(sequence2).to be_invalid
         expect(sequence2).to be_invalid
       end
+
     end
 
     describe "assigns repititions" do
+
       it "is not blank" do
         sequence = Sequence.create(title: 'NewYogaSequence', difficulty: 3, repititions: nil)
         expect(sequence).to be_invalid
       end
+
       it "has between 1 and 10 repititions" do
         sequence1 = Sequence.create(title: 'NewYogaSequence', difficulty: 3, repititions: 0)
         sequence2 = Sequence.create(title: 'NewYogaSequence', difficulty: 3, repititions: 20)
@@ -51,6 +60,7 @@ describe Sequence do
 
     describe "assigns poses" do
       before(:each) do
+
         Pose.create(
           sanskrit_name: "Urdhva Vrikshasane",
           english_name: "Upward Tree Position"
@@ -151,29 +161,14 @@ describe Sequence do
       it "adds existing poses to the sequence" do
         expect(sequence.poses.length).to eq(10)
       end
+
       it "adds new poses to the sequence" do
         expect(sequence.poses[3].sanskrit_name).to eq("weeeeee")
       end
+
       it "adds poses to the sequence in the correct order" do
         expect(sequence.pose_ids).to eq( [8, 9, 15, 18, 9, 19, 7, 16, 9, 2])
       end
     end
   end
 end
-
-
-# {"title"=>"blahblah",
-#  "difficulty"=>"4",
-#  "repititions"=>"5",
-#  "poses_attributes"=>
-#   {"0"=>{"sanskrit_name"=>"", "english_name"=>""},
-#    "1"=>{"sanskrit_name"=>"", "english_name"=>""},
-#    "2"=>{"sanskrit_name"=>"", "english_name"=>""},
-#    "3"=>{"sanskrit_name"=>"weeeeee", "english_name"=>"eeeeew"},
-#    "4"=>{"sanskrit_name"=>"", "english_name"=>""},
-#    "5"=>{"sanskrit_name"=>"yupyup", "english_name"=>"nopenope"},
-#    "6"=>{"sanskrit_name"=>"", "english_name"=>""},
-#    "7"=>{"sanskrit_name"=>"", "english_name"=>""},
-#    "8"=>{"sanskrit_name"=>"", "english_name"=>""},
-#    "9"=>{"sanskrit_name"=>"", "english_name"=>""}},
-#  "pose_ids"=>["8", "9", "15", "new", "9", "new", "", "16", "", ""]}
