@@ -10,6 +10,7 @@ body {
   background: url('yogabackground.jpg') repeat-x 50% 50% fixed;
   background-size: cover;
   font-family: Verdana, Geneva, sans-serif;
+  letter-spacing: .9px;
 }
 
 .select_sequence {
@@ -17,6 +18,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: #FDC72E;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 #select_menu {
@@ -67,7 +73,12 @@ a:active {
 }
 
 #sequenceTitle {
-
+  font-size: 1.5em;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 #sequenceDifficulty {
@@ -81,6 +92,13 @@ a:active {
   margin-top: 60px;
   text-align: center;
   color: #FDC72E;
+  h1 {
+    text-shadow:
+      -1px -1px 0 black,
+      1px -1px 0 black,
+      -1px 1px 0 black,
+      1px 1px 0 black;
+  }
 }
 
 #newSequenceForm {
@@ -109,7 +127,6 @@ a:active {
   font-size: 1.1em;
   padding-right: 50px;
   border: 10px solid gray;
-  letter-spacing: .9px;
   text-shadow:
     -1px -1px 0 black,
     1px -1px 0 black,
