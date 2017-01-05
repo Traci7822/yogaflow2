@@ -11,8 +11,10 @@
       <%= link_to "Sign in with Facebook", "/auth/facebook", id: "sign_in" %>
     <% end %>
   </div>
+
+<% if current_user %>
   <div id="newSequenceLink">
-    <!-- only show if user is logged in -->
     <%= link_to "Create a new sequence", new_sequence_path, class: 'linkText'  %>
   </div>
 </div>
+<% end %>
