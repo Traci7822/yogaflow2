@@ -1,7 +1,9 @@
 <span class="select_sequence">
   <h1 id="select_menu">Select and view a yoga sequence:
     <h4>
-      <%= select_tag :sequence_options, options_from_collection_for_select(@sequences, :id, :title) %>
+      <%= select_tag :sequence_options,
+        content_tag(:option, 'Select a sequence...', :value => '') +
+        options_from_collection_for_select(@sequences, :id, :title) %>
     </h4>
   </h1>
 </span>
