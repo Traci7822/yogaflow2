@@ -2,10 +2,10 @@ YogaFlow
 ============
 This is a Ruby on Rails/JavaScript application that provides an evironment to create and view yoga
 
-
-![Index Preview](http://i.imgur.com/yCrEqRs.png)
+(http://i.imgur.com/yCrEqRs.png)
 
 ## Setup
+
 Clone this repo to your desktop and run `bundle install` to install all the dependencies.
 
 Run 'rake db:seed' to populate the database with a few pre-set sequences.
