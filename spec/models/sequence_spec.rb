@@ -167,7 +167,7 @@ describe Sequence do
       end
 
       it "adds poses to the sequence in the correct order" do
-        expect(sequence.pose_ids).to eq( [8, 9, 15, 18, 9, 19, 7, 16, 9, 2])
+        expect(sequence.pose_ids).to eq( [8, 9, 15, 16, 9, 17, 7, 16, 9, 2])
       end
     end
   end
