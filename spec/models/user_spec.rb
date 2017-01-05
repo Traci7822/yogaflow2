@@ -58,4 +58,26 @@ describe User do
 
     end
   end
+
+  context "unregistered user" do
+    describe "has correct permissions" do
+
+      it "cannot view create sequence link" do
+        visit('/')
+        expect(page).to have_content("Sign up or log in")
+      end
+
+      it "cannot view create sequence page" do
+        visit('/sequence/new')
+        expect(page).to have_content("Sign up or log in")
+      end
+
+    end
+  end
+
+  context "registered user" do
+    describe "has correct permissions" do
+    end
+  end
+
 end
