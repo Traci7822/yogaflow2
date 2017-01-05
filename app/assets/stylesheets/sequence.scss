@@ -59,3 +59,39 @@ a:active {
 #welcome {
   color: #E76D1F;
 }
+
+.sequenceDetails {
+  margin-top: 60px;
+  text-align: center;
+  color: #FDC72E;
+}
+
+#sequenceTitle {
+
+}
+
+#sequenceDifficulty {
+  margin-top: 24%;
+  padding-left: 20px;
+}
+
+#newSequenceHeader {
+  margin-top: 60px;
+  text-align: center;
+  color: #FDC72E;
+}
+
+#newSequenceForm {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-weight: bold;
+  border: 10px solid gray;
+}
+
+.newSequencePoses {
+  padding: 10px;
+}
