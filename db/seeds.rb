@@ -5,6 +5,17 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+sequence_list = [
+  ["Surya Namaskar A", 2, 1, [1, 2, 4, 2, 1]],
+  ["Standing Balance", 3, 2, [9, 11, 12, 7, 16]],
+  ["Half Mandala Surrender", 3, 3, [5, 9, 6, 10, 3]],
+  ["Energizing Solar Sequence", 2, 5, [3, 7, 12, 1, 2, 15, 17]]
+]
+
+sequence_list.each do |title, difficulty, repititions, pose_ids|
+  Sequence.create(title: title, difficulty: difficulty, repititions: repititions, pose_ids: pose_ids)
+end
+
 
 pose_list = [
   ["Urdhva Vrikshasane", "Upward Tree Position"],
