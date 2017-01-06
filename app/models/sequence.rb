@@ -64,7 +64,6 @@ class Sequence < ActiveRecord::Base
     attribute_hash.each do |k, v|
       if v.empty?
         false
-        # throw error, names cannot be blank
       end
     end
   end
