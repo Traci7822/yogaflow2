@@ -29,7 +29,6 @@ class Sequence < ActiveRecord::Base
   def set_sequence_poses(params)
     sequence_poses_array = []
     params[:pose_ids].each_with_index do |pose_id, i|
-
       if !pose_id.empty?
         if new_pose?(pose_id)
           new_pose_names = params[:poses_attributes].values[i]
@@ -43,7 +42,12 @@ class Sequence < ActiveRecord::Base
         sequence_poses_array[i] = ""
       end
     end
-    self.poses = sequence_poses_array
+    sequence_poses_array.each_with_index do |pose, i|
+      if sequence_poses_array[i] == ""
+      else
+        self.poses << pose
+      end
+    end
   end
 
   def create_new_pose(pose_names, sequence, index)

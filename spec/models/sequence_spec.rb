@@ -1,6 +1,5 @@
 require 'rails_helper'
 
-
 describe Sequence do
 
   it {should have_many(:sequence_poses)}

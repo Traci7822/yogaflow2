@@ -1,21 +1,10 @@
 $(document).ready(function() {
   $('.poseBuilder').hide();
-  // $('.addMorePoses').click(function() {
-  //   var additionalPoses = $('.newSequencePoses').clone();
-  //   for (var i = 4; i < additionalPoses.length; i++) {
-  //     var id = additionalPoses.find('.poseBuilder')[i].id
-  //     var newId = id.slice(0, -1) + (parseInt(id[12]) + 5)
-  //     additionalPoses.find('.poseBuilder')[i].id = newId
-  //     debugger;
-  //   }
-    //add another 5 pose selectors
-  // })
+
   if (window.location.hash && window.location.hash == '#_=_') {
     window.location.hash = '';
     window.location.href = window.location.href.split('#')[0]
-    // document.location.href = String( document.location.href ).replace( /#/, "" );
   }
-
 
   $('body').on('change', '#sequence_options', function() {
     window.location = window.location + "sequence/" + this.value
@@ -24,13 +13,7 @@ $(document).ready(function() {
   $("#go-back").on('click', function() {
     window.location = "http://localhost:3000"
   });
-  // $('#sequence_options').change(function() {
-  //   window.location = window.location + "sequence/" + this.value
-  // })
-
 });
-
-
 
 function setValue(poseNumber) {
   for (var i = 0; i < $('.poseBuilder').length; i++) {

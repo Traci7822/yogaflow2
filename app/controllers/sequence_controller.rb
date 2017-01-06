@@ -1,4 +1,5 @@
 class SequenceController < ApplicationController
+  before_action :set_sequences
   def index
     @sequences = Sequence.all
   end
@@ -7,7 +8,6 @@ class SequenceController < ApplicationController
     if current_user
       @sequence = Sequence.new
       @sequence.poses.build
-      @sequences = Sequence.all
     else
       redirect_to root_path
     end
@@ -28,6 +28,10 @@ class SequenceController < ApplicationController
   end
 
   private
+
+  def set_sequences
+    @sequences = Sequence.all
+  end
 
   def sequence_params
     params.require(:sequence).permit(:title, :difficulty, :repititions, poses_attributes: [:sanskrit_name, :english_name], pose_ids: [])
