@@ -2,7 +2,7 @@ YogaFlow
 ============
 This is a Ruby on Rails/JavaScript application that provides an evironment to create and view yoga
 
-http://i.imgur.com/SD6R8Xa.png
+![http://i.imgur.com/SD6R8Xa.png](http://i.imgur.com/SD6R8Xa.png)
 
 ## Setup
 ----
