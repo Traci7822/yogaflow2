@@ -13,7 +13,11 @@ class UsersController < ApplicationController
     if @user.save
       set_session
       redirect_to root_path
+    else
+      flash[:error] = @user.errors.full_messages.to_sentence
+      render :new
     end
+
   end
 
   private
