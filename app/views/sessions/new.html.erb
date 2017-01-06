@@ -5,18 +5,23 @@
         <%= link_to "Go Back", root_path, id: "go-back" %>
       </div>
     </div>
+
+    <div id="sessionErrorMessages">
+      <% if @user.errors.any? %>
+        <div class="error_explanation">
+          <h2>There were some errors:</h2>
+          <ul>
+            <% @user.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </div>
+    
     <div class="logInForm">
       <%= form_tag sessions_path do %>
-        <% if @user.errors.any? %>
-          <div class="error_explanation">
-            <h2>There were some errors:</h2>
-            <ul>
-              <% @user.errors.full_messages.each do |message| %>
-              <li><%= message %></li>
-              <% end %>
-            </ul>
-          </div>
-        <% end %>
+
         <div>
           <h3 class="formUsername"><%= label_tag :username %><br /></h3>
           <%= text_field_tag :username %><br />

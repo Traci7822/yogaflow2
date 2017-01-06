@@ -5,18 +5,21 @@
   </div>
 </div>
 
+<div id="userErrorMessages">
+  <% if @user.errors.any? %>
+    <div class="errorExplanation">
+      <h2>There were some errors:</h2>
+      <ul>
+        <% @user.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+</div>
+
 <div class="createUserForm">
   <%= form_for @user do |f| %>
-
-    <% if @user.errors.any? %>
-      <div class="errorExplanation">
-        <ul>
-          <% @user.errors.full_messages.each do |message| %>
-            <li><%= message %></li>
-          <% end %>
-        </ul>
-      </div>
-    <% end %>
     <div>
       <%= f.label :username, "Create a Username" %><br /><br />
       <%= f.text_field :username %><br /><br />

@@ -19,7 +19,9 @@ class SequenceController < ApplicationController
       @sequence.set_sequence_poses(sequence_params)
       redirect_to root_path
     else
-      render :index
+      flash[:error] = @sequence.errors.full_messages.to_sentence
+      @sequence.poses.build
+      render :new
     end
   end
 
